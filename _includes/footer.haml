@@ -1,0 +1,24 @@
+%footer.page-footer.teal.lighten-1
+  .container
+    .row
+      .col.l6.s6
+        %h5.white-text
+          Contact me
+        %p.grey-text.text-lighten-4= "{{ site.email }}"
+      .col.l4.offset-l2.s6
+        %h5.white-text
+          Check my profile
+        %ul
+          %li
+            %a.grey-text.text-lighten-3{"href" => "https://github.com/{{ site.github_username }}"}
+              Github
+          %li
+            %a.grey-text.text-lighten-3{"href" => "https://{{ site.linked_in_link }}"}
+              Linked In
+          %li
+            %a.grey-text.text-lighten-3{"href" => "https://{{ site.golden_line_link }}"}
+              Golden Line
+    .row
+      %p.grey-text.center-align.text-lighten-4
+        © 2015 Copyright by
+        = "{{ site.username }}"
