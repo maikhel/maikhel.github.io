@@ -2,9 +2,9 @@
 
 .logos-section
   text-align: center
-  padding: 0 50px
-  +respond-to(small)
-    padding: 0
+  padding: 0
+  +respond-to(large)
+    padding: 0 50px
 
 .logo-link
   padding-top: 10px
@@ -17,7 +17,7 @@
       -webkit-filter: grayscale(0)
       filter: grayscale(0)
     .valign
-      color: #0f433d
+      @extend .grey-text, .text-darken-3
     text-decoration: none
 
 h6
