@@ -5,6 +5,7 @@
   padding: 0 50px
   +respond-to(small)
     padding: 0
+
 .logo-link
   padding-top: 10px
   img
@@ -12,7 +13,9 @@
     -webkit-filter: grayscale(100%)
     filter: grayscale(100%)
   &:hover
-    -webkit-filter: saturate(100%)
+    img
+      -webkit-filter: grayscale(0)
+      filter: grayscale(0)
     .valign
       color: #0f433d
     text-decoration: none
@@ -33,3 +36,7 @@ h6
     max-height: 100px
     display: block
     margin: 0 auto
+
+footer
+  .row
+    margin-bottom: 0
