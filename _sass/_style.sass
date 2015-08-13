@@ -1,22 +1,35 @@
+@import "mixins"
+
+.logos-section
+  text-align: center
+  padding: 0 50px
+  +respond-to(small)
+    padding: 0
 .logo-link
   padding-top: 10px
   img
     margin: 0 5px
+    -webkit-filter: grayscale(100%)
+    filter: grayscale(100%)
   &:hover
+    -webkit-filter: saturate(100%)
     .valign
       color: #0f433d
     text-decoration: none
 
+h6
+  font-weight: 600
 .img-wrapper
   position: relative
   text-align: center
-  margin: 20px
+  margin: 30px
+  +respond-to(small)
+    margin: 10px
   display: inline-block
   h6
-    font-weight: 600
     margin-top: 10px
   img
-    max-width: 100px
+    width: 100px
     max-height: 100px
     display: block
     margin: 0 auto
