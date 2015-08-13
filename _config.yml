@@ -14,7 +14,7 @@ username: maikhel
 
 # Build settings
 markdown: kramdown
-# sass:
-#   style: compressed
+sass:
+  style: compressed
 
 # https://scotch.io/tutorials/make-material-design-websites-with-the-materialize-css-framework
