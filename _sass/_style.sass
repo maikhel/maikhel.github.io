@@ -3,6 +3,16 @@
 
 .main-color
   @extend .teal
+.error-section
+  margin-top: 40px
+  +respond-to(small)
+    margin-top: 20px
+.big-font
+  font-size: 8em
+  +respond-to(medium)
+    font-size: 6em
+  +respond-to(small)
+    font-size: 5em
 
 .logos-section
   text-align: center
