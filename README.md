@@ -1,2 +1,2 @@
 # maikhel.github.io
-Simple site about me, in materialize.css
+Simple site about me, in materializecss
