@@ -8,12 +8,7 @@ url: "http://maikhel.github.io"
 homeurl: "http://maikhel.github.io"
 github_username: maikhel
 linked_in_link: pl.linkedin.com/in/maikhel
-golden_line_link: www.goldenline.pl/michal-lecicki/
 username: maikhel
 
 # Build settings
 markdown: kramdown
-sass:
-  style: compressed
-
-# https://scotch.io/tutorials/make-material-design-websites-with-the-materialize-css-framework

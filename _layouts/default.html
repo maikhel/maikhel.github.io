@@ -1,20 +1,8 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
   {% include head.html %}
-
   <body>
-    {% include_haml header.haml %}
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
-    {% include_haml footer.haml %}
-
+    {{ content }}
   </body>
-
+  {% include footer.html %}
 </html>
