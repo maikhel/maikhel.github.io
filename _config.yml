@@ -1,14 +1,9 @@
 # Site settings
 title: maikhel
 email: mlecicki@live.com
-description: >
-  Hi, I'm maikhel and I want to share my CV with you. Enjoy reading!
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://maikhel.github.io"
-homeurl: "http://maikhel.github.io"
-github_username: maikhel
-linked_in_link: pl.linkedin.com/in/maikhel
-username: maikhel
+url: "https://maikhel.github.io"
+homeurl: "https://maikhel.github.io"
 
 # Build settings
 markdown: kramdown
