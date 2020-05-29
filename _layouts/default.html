@@ -2,7 +2,13 @@
 <html lang="en">
   {% include head.html %}
   <body>
-    {{ content }}
+    <div class="cf pa4">
+      <div class="fl pa4 w-30">
+        {% include sidebar.html %}
+      </div>
+      <div class="fl pa4 w-70">
+        {{ content }}
+      </div>
+    </div>
   </body>
-  {% include footer.html %}
 </html>

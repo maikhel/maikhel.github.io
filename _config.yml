@@ -3,7 +3,9 @@ title: maikhel
 email: mlecicki@live.com
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://maikhel.github.io"
-homeurl: "https://maikhel.github.io"
+homeurl: "/index"
+photos_page: "/photos"
+about_page: "/about"
 
 # Build settings
 markdown: kramdown
