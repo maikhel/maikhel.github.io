@@ -1,14 +1,12 @@
 ---
 layout: default
+title: Gallery
 ---
 
-<div class="w-100">
-  <h1 class="mb3 mt0 lh-title tc">Gallery</h1>
-  {% assign image_files = site.static_files | where: "image", true %}
-  {% for image in image_files %}
-  <div class="fl pa2 w-100">
-    <img src={{ image.path }} class="w-100 f5" alt="photo">
-  </div>
-  {% endfor %}
+{% assign image_files = site.static_files | where: "image", true %}
+{% for image in image_files %}
+<div class="fl pv2-ns w-100">
+  <img src={{ image.path }} class="w-100 f5" alt="photo">
 </div>
+{% endfor %}
 

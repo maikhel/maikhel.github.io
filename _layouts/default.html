@@ -2,12 +2,15 @@
 <html lang="en">
   {% include head.html %}
   <body>
-    <div class="cf pa4">
-      <div class="fl pa4 w-30">
+    <div class="cf pa3 pa4-ns baskerville">
+      <div class="fl w-100 w-30-l pa3-l">
         {% include sidebar.html %}
       </div>
-      <div class="fl pa4 w-70">
-        {{ content }}
+      <div class="fl w-100 w-70-l pa3-l">
+        <div class="w-100">
+          <h1 class="mb3 mt0 lh-title tc fw1">{{ page.title }}</h1>
+          {{ content }}
+        </div>
       </div>
     </div>
   </body>
