@@ -1,5 +1,5 @@
 ---
-image: "hal-gatewood-tZc3vjPCk-Q-unsplash.jpg"
+image: "hal-gatewood-tZc3vjPCk-Q-unsplash.jpeg"
 layout: default
 title:  "Let's prototype"
 external_url: "https://medium.com/visualitypl/lets-prototype-125fc8008025"

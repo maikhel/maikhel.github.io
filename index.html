@@ -1,7 +1,20 @@
 ---
 layout: default
-title: Blog posts
+title: Hello There!
 ---
+
+<p class="f5 lh-copy">
+I’m Michał Łęcicki (aka Maikhel) - software engineer at Visuality.</br>
+I believe self-improvement, responsibility and honest code are necessary to get things done.</br>
+</br>
+Feel free to check some of my posts below. There are also few
+<a class="link gray dim" href="{{ site.gallery_page }}" title="Photos">photos</a>
+and more information
+<a class="link gray dim" href="{{ site.about_page }}" title="About me">about me</a>.
+</br>
+</p>
+
+<div class="f4 b pv1 mt2"> Blog posts</div>
 {% for post in site.posts %}
   <article class="bt b--black-10">
     <a class="db pv4 ph3 ph0-l no-underline black dim" href= {{ post.external_url }} >

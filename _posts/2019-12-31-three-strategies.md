@@ -1,5 +1,5 @@
 ---
-image: "bill-oxford--fGqsewtsJY-unsplash.jpg"
+image: "bill-oxford--fGqsewtsJY-unsplash.jpeg"
 layout: default
 title:  "Three strategies that work in board games and in real life"
 external_url: "https://medium.com/visualitypl/three-strategies-that-work-in-board-games-and-in-real-life-113ce8b26274"
