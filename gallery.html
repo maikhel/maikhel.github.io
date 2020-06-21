@@ -1,0 +1,14 @@
+---
+layout: default
+title: Gallery
+---
+{% assign image_files = site.static_files | where: "image", true %}
+{% for image in image_files %}
+<div class="fl pv2-ns w-100">
+  <img src={{ image.path }} class="w-100 f5" alt="photo">
+</div>
+{% endfor %}
+
+<p class="f5 lh-copy tc">
+All photos made with my favorite Pentax K-50.
+</p>
