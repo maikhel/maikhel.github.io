@@ -1,12 +1,9 @@
 # maikhel.github.io
-Simple site about me, in materializecss
-
+Simple site about me, in jekyll with tachyons
 
 ## Development:
 
 - install Jekyll with `gem install jekyll`
-- install dependecies: `gem install html2haml`
-
 - build page with `jekyll build` and run server with `jekyll serve`
-- when all ready, publish page with rake task: `rake publish`
+- push to master & enjoy new changes :)
 
