@@ -2,7 +2,7 @@
 image: "hal-gatewood-tZc3vjPCk-Q-unsplash.jpeg"
 layout: default
 title:  "Let's prototype"
-external_url: "https://medium.com/visualitypl/lets-prototype-125fc8008025"
+external_url: "https://www.visuality.pl/posts/let-s-prototype"
 ---
 
 Uncertainty is an inseparable part of creating any software. At the beginning of the project you never have a full knowledge about future requirements and features. Developers don’t know the whole specification, project manager doesn’t know all clients’s expectations and usually clients are not aware about all features their product should have. When the amount of unspecified requirements is significant, choosing to create a prototype could be really beneficial.
