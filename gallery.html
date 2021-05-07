@@ -6,6 +6,7 @@ title: Gallery
 {% for image in image_files %}
 <div class="fl pv2-ns w-100">
   <img src={{ image.path }} class="w-100 f5" alt="photo">
+  <p class="w-100 tc"> {{ site.data.photos[image.basename] }} </p>
 </div>
 {% endfor %}
 
