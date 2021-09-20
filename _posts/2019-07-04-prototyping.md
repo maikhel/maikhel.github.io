@@ -1,5 +1,5 @@
 ---
-image: "hal-gatewood-tZc3vjPCk-Q-unsplash.jpeg"
+image: "happy_cookie.jpeg"
 layout: default
 title:  "Let's prototype"
 external_url: "https://www.visuality.pl/posts/let-s-prototype"

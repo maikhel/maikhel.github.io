@@ -1,5 +1,5 @@
 ---
-image: "diana-akhmetianova-iZCHv8ViRdw-unsplash.jpg"
+image: "working.jpeg"
 layout: default
 title:  "How to receive emails with a Rails app in 2021"
 external_url: "https://www.visuality.pl/posts/how-to-receive-emails-with-a-rails-app-in-2021"
