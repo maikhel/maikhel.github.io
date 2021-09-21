@@ -178,4 +178,9 @@
   .dark--b--washed-yellow { border-color: #fffceb; }
   .dark--b--washed-red { border-color: #ffdfdf; }
   .dark--b--transparent { border-color: transparent; }
+
+  /* Hovers */
+  .dim { opacity: 1; transition: opacity .15s ease-in; }
+  .dim:hover, .dim:focus { opacity: .8; transition: opacity .15s ease-in; }
+  .dim:active { opacity: .8; transition: opacity .15s ease-out; }
 }
