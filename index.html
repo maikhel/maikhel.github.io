@@ -25,7 +25,7 @@ and more information
         <div class="w-100 w-60-ns pl3-ns">
           <h1 class="f3 fw1 baskerville mt0 lh-title"> {{ post.title }} </h1>
           <p class="f6 f5-l lh-copy">
-          {{ post.excerpt }}
+          {{ post.excerpt | strip_html }}
           </p>
           <p class="f6 lh-copy mv0"> Posted on {{ post.date | date_to_long_string }}</p>
         </div>
