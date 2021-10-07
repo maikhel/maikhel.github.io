@@ -1,5 +1,5 @@
 ---
-image: "happy_cookie.jpeg"
+image: "machine.jpeg"
 layout: default
 title:  "Let's prototype"
 excerpt_separator: <!--more-->
@@ -7,7 +7,7 @@ external_url: "https://www.visuality.pl/posts/let-s-prototype"
 ---
 
 {:.lh-copy .measure-wide .center}
-![image](/images/happy_cookie.jpeg)
+![image](/images/machine.jpeg)
 
 {:.lh-copy .measure-wide .center}
 Uncertainty is an inseparable part of creating any software. At the beginning of the project you never have a full knowledge about future requirements and features. Developers don’t know the whole specification, project manager doesn’t know all clients’s expectations and usually clients are not aware about all features their product should have. When the amount of unspecified requirements is significant, choosing to create a prototype could be really beneficial.
