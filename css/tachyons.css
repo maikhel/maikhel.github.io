@@ -5265,7 +5265,7 @@ img {
     vertical-align: bottom;
 }
 
-}@media screen and (min-width:60em) and (max-width:90em) {
+}@media screen and (min-width:60em) and (max-width:91em) {
     .aspect-ratio-l {
     height: 0;
     position: relative;
@@ -6582,7 +6582,7 @@ img {
 .v-btm-l {
     vertical-align: bottom;
 }
-}@media screen and (min-width:90em){
+}@media screen and (min-width:91em){
     .aspect-ratio-xl {
     height: 0;
     position: relative;
