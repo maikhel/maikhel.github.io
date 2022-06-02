@@ -14,6 +14,11 @@ defaults:
       path: "photos"
     values:
       image: true
+  -
+    scope:
+      path: "photos/beskid"
+    values:
+      image: false
 
 # Build settings
 markdown: kramdown
