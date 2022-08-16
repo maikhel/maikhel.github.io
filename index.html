@@ -17,7 +17,7 @@ and more information
 <div class="f4 b pv1 mt2"> Blog posts</div>
 {% for post in site.posts %}
   <article class="bt b--black-30 dark--b--white-30">
-    <a class="db pv4 ph3 ph0-l no-underline black dark--light-gray dim" href="{% if post.external_url %}{{ post.external_url  }}{% else %}{{ post.url }}{% endif %}">
+    <a class="db pv4 ph3 ph0-l no-underline black dark--white-80 dim" href="{% if post.external_url %}{{ post.external_url  }}{% else %}{{ post.url }}{% endif %}">
       <div class="flex flex-column flex-row-ns">
         <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
           <img src= images/{{ post.image }} class="db" alt="Photo for specific blog post">
