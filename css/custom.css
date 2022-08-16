@@ -1,9 +1,15 @@
-.markdown p, ol {
+.markdown p, ol, ul {
   margin-right: auto; /* .center */
   margin-left: auto; /* .center */
   max-width: 34em; /* .measure-wide */
   text-align: justify; /* .tj */
   line-height: 1.5; /* .lh-copy */
+}
+
+.markdown h2 {
+  text-align: center; /* .tc */
+  font-size: 1.5rem; /* .f3 */
+  line-height: 1.25; /* .lh-title */
 }
 
 .markdown h3 {
@@ -17,6 +23,28 @@
   margin-right: auto; /* .center */
   margin-left: auto; /* .center */
   display: block; /* .db */
+}
+
+a {
+  color: #00449e;
+  opacity: 1;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+  transition: opacity .15s ease-in;
+}
+hr {
+  border-top: 1px dashed;
+  border-bottom: none;
+  width: 60%;
+}
+
+@media (prefers-color-scheme: dark) {
+  a {
+    color: #ffb700;
+  }
 }
 
 
