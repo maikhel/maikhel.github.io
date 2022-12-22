@@ -20,7 +20,7 @@ and more information
     <a class="db pv4 ph3 ph0-l no-underline black dark--white-80 dim" href="{% if post.external_url %}{{ post.external_url  }}{% else %}{{ post.url }}{% endif %}">
       <div class="flex flex-column flex-row-ns">
         <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <img src= images/{{ post.image }} class="db" alt="Photo for specific blog post">
+          <img src="images/{% if post.min_image %}{{ post.min_image  }}{% else %}{{ post.image }}{% endif %}" class="db" alt="Photo for specific blog post">
         </div>
         <div class="w-100 w-60-ns pl3-ns">
           <h1 class="f3 fw1 baskerville mt0 lh-title"> {{ post.title }} </h1>
