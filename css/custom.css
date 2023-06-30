@@ -25,6 +25,19 @@
   display: block; /* .db */
 }
 
+.markdown .highlighter-rouge {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 38em;
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.markdown .language-ruby .highlight {
+  overflow: auto;
+}
+
 a {
   color: #00449e;
   opacity: 1;
