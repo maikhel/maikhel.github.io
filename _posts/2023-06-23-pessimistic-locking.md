@@ -79,4 +79,4 @@ expect(invoice.payments.count).to eq 1
 There are certain scenarios when pessimistic locking is perfect. It's a valuable tool for resolving race conditions and maintaining data integrity. Use it when you don't want to introduce an extra `version` column for optimistic locking. Or, when you need to fix a specific place in your Ruby on Rails app without affecting the rest of the system.
 
 
-*This blogpost was originally published on [Visuality blog](https://www.visuality.pl/posts/a-simple-guide-to-pessimistic-locking-in-rails).*
+*This post was originally published on [Visuality blog](https://www.visuality.pl/posts/a-simple-guide-to-pessimistic-locking-in-rails).*
