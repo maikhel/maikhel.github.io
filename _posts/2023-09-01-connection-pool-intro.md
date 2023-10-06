@@ -132,3 +132,5 @@ Connection pool allows you to do more with the same resources. You can use it as
 
 
 *This post was originally published on [Visuality blog](https://www.visuality.pl/posts/easy-introduction-to-connection-pool-in-ruby).*
+
+*And also mentioned in [Ruby Weekly newsletter](https://rubyweekly.com/issues/672)* 🎉
