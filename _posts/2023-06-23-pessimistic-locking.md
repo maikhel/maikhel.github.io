@@ -24,6 +24,7 @@ The remarkable benefit of pessimistic locking is the fact that it doesn't affect
 ### Show me the code
 
 ```ruby
+
 ActiveRecord::Base.transaction do
   # SELECT * FROM INVOICES WHERE id=? FOR UPDATE
   invoice = Invoice.lock.find(invoice_id)
@@ -42,6 +43,7 @@ Selecting a particular invoice uses special SQL command: `SELECT ... FOR UPDATE`
 It is possible to use database-specific locking by passing custom clauses to the `lock` method, such as:
 
 ```ruby
+
 # raise an error if a record is already locked
 invoice = Invoice.lock("FOR UPDATE NOWAIT").find(invoice_id)
 ```
@@ -49,6 +51,7 @@ invoice = Invoice.lock("FOR UPDATE NOWAIT").find(invoice_id)
 There is also an alternative method for locking individual records:  `with_lock` . In this scenario, all operations happening within the block are wrapped into the transaction.
 
 ```ruby
+
 invoice = Invoice.find(invoice_id)
 invoice.with_lock do
   (..)
@@ -62,6 +65,7 @@ The general rule is: **Always use pessimistic locking within a transaction.** Th
 Testing pessimistic locking is not trivial. To simulate the real conditions, many processes must attempt to retrieve a record simultaneously. This can be achieved by using some concurrency mechanisms, like ruby threads:
 
 ```ruby
+
 threads = []
 3.times do
   threads << Thread.new do
