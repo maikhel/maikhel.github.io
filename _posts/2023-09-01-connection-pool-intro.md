@@ -90,6 +90,7 @@ In RabbitMQ, we reuse the connections and create channels, which are defined as 
 And what are the results?
 
 ```ruby
+
 n = 5000
 
 def print_time_spent(&block)
