@@ -1,0 +1,81 @@
+.markdown p, ol, ul {
+  margin-right: auto; /* .center */
+  margin-left: auto; /* .center */
+  max-width: 34em; /* .measure-wide */
+  text-align: justify; /* .tj */
+  line-height: 1.5; /* .lh-copy */
+}
+
+.markdown h2 {
+  text-align: center; /* .tc */
+  font-size: 1.5rem; /* .f3 */
+  line-height: 1.25; /* .lh-title */
+}
+
+.markdown h3 {
+  text-align: center; /* .tc */
+  font-size: 1.5rem; /* .f3 */
+  line-height: 1.25; /* .lh-title */
+  font-weight: normal /* .normal */
+}
+
+.markdown img {
+  margin-right: auto; /* .center */
+  margin-left: auto; /* .center */
+  display: block; /* .db */
+}
+
+.markdown .highlighter-rouge {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 38em;
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.markdown .language-ruby .highlight {
+  padding-left: 10px;
+  overflow: auto;
+}
+
+pre.highlight {
+  margin-top: 0;
+}
+
+a {
+  color: #00449e;
+  opacity: 1;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+  transition: opacity .15s ease-in;
+}
+hr {
+  border-top: 1px dashed;
+  border-bottom: none;
+  width: 60%;
+}
+
+@media (prefers-color-scheme: dark) {
+  a {
+    color: #ffb700;
+  }
+}
+
+
+.f4 { font-size: 1.125rem; }
+
+@media (--breakpoint-not-small){
+  .f4-ns { font-size: 1.125rem; }
+}
+
+@media (--breakpoint-medium) {
+  .f4-m { font-size: 1.125rem; }
+}
+
+@media (--breakpoint-large) {
+  .f4-l { font-size: 1.125rem; }
+}
