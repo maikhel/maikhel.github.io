@@ -1,11 +1,11 @@
 ---
-image: "palmy.jpeg"
+image: "palmy.webp"
 layout: blogpost
 title:  "My thoughts after using Getting Things Done for 10 years"
 excerpt_separator: <!--more-->
 ---
 
-![image](/images/palmy.jpeg)
+![image](/images/palmy.webp)
 
 Getting Things Done is an important part of my life. I've been using it for almost ten years now! It helps to organize my projects and boost my productivity. Let me share my thoughts about the pros and cons of this method. Enjoy reading!
 

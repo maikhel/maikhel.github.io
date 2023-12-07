@@ -1,11 +1,11 @@
 ---
-image: "tree.png"
+image: "tree.webp"
 layout: blogpost
 title:  "Why I use Getting Things Done"
 excerpt_separator: <!--more-->
 ---
 
-![image](/images/tree.png)
+![image](/images/tree.webp)
 
 I've always been curious about productivity tools and techniques to try. But when I read a book written by David Allen, it amazed me. I finally found a framework that could replace the to-do lists I was rewriting every day!
 Let me share the most beneficial aspects of GTD.

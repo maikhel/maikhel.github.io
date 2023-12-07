@@ -1,12 +1,12 @@
 ---
-image: "lodka.jpeg"
-min_image: "lodka_min.jpeg"
+image: "lodka.webp"
+min_image: "lodka_min.webp"
 layout: blogpost
 title:  "5 steps to start using Getting Things Done"
 excerpt_separator: <!--more-->
 ---
 
-![image](/images/lodka.jpeg)
+![image](/images/lodka.webp)
 
 Welcome to my guide on how to boost your productivity with Getting Things Done. I already shared [my experiences](https://maikhel.github.io/2022/10/18/gtd-thoughts-after-10-years.html) and [tools](https://maikhel.github.io/2022/12/22/gtd-setup.html) in other blog posts. This time I have a step-by-step recipe to help you start using GTD. Grab a coffee and let's go!
 

@@ -1,11 +1,11 @@
 ---
-image: "green.jpeg"
+image: "green.webp"
 layout: blogpost
 title:  "Data Quality in Ruby on Rails"
 excerpt_separator: <!--more-->
 ---
 
-![image](/images/green.jpeg)
+![image](/images/green.webp)
 
 Preserving data quality is always a challenge. Especially in the Ruby on Rails world where products ship fast.  It means some compromises are made along the way and often data quality is sacrificed. And when it comes to data - it's better to prevent than cure. Continue reading to see how you can avoid many data problems, at different stages of Rails app development. You will thank me later.
 <!--more-->

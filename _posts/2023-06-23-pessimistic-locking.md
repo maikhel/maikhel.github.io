@@ -1,12 +1,12 @@
 ---
-image: "thing.jpeg"
-min_image: "thing_min.jpeg"
+image: "thing.webp"
+min_image: "thing_min.webp"
 layout: blogpost
 title:  "A simple guide to pessimistic locking in Rails"
 excerpt_separator: <!--more-->
 ---
 
-![image](/images/thing.jpeg)
+![image](/images/thing.webp)
 
 
 In the Rails world, optimistic locking is relatively well known, while its pessimistic alternative is often overlooked. In this blog post, I will present how to effectively use pessimistic locking in Rails applications.

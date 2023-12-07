@@ -1,12 +1,12 @@
 ---
-image: "window.jpeg"
-min_image: "window_min.jpeg"
+image: "window.webp"
+min_image: "window_min.webp"
 layout: blogpost
 title:  "Easy introduction to Connection Pool in ruby"
 excerpt_separator: <!--more-->
 ---
 
-![image](/images/window.jpeg)
+![image](/images/window.webp)
 
 As Rails developers, we often encounter performance issues in different parts of our applications. But establishing connections to external services is usually the place we overlook. Let me introduce the concept of connection pooling and show you an example of easy, performant connections to RabbitMQ.
 

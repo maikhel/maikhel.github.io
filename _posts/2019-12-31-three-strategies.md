@@ -1,5 +1,5 @@
 ---
-image: "three_strategies.jpeg"
+image: "three_strategies.webp"
 layout: blogpost
 title:  "Three strategies that work in board games and in real life"
 excerpt_separator: <!--more-->
@@ -7,7 +7,7 @@ external_url: "https://www.visuality.pl/posts/three-strategies-that-work-in-boar
 ---
 
 
-![image](/images/three_strategies.jpeg)
+![image](/images/three_strategies.webp)
 
 
 When playing board games, I always try to improve my performance and find some clever way to beat my opponents. I love analysing, discussing and recalling past games to find the most useful strategy and see things that are not seen by other players. This allowed me to form a few simple rules that increase chances of victory — not only in board games but also in real-life activities.
