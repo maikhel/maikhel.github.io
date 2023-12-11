@@ -3,6 +3,7 @@ title: maikhel
 email: mlecicki@live.com
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://maikhel.github.io"
+greeting: "Hello There!"
 
 homeurl: "/index"
 gallery_page: "/gallery"
