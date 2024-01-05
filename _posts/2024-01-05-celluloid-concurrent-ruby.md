@@ -34,7 +34,7 @@ class AsyncThreadsService
   API_ENDPOINT = 'https://api.chucknorris.io/jokes/random'.freeze
 
   def self.call(requests_count)
-		jokes = Queue.new
+    jokes = Queue.new
     threads = []
 
     requests_count.times do
