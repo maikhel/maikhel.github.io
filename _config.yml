@@ -9,6 +9,9 @@ homeurl: "/index"
 gallery_page: "/gallery"
 about_page: "/about"
 
+paginate: 5
+plugins: [jekyll-paginate]
+
 defaults:
   -
     scope:
