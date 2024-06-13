@@ -34,7 +34,7 @@
   font-size: 1rem;
 }
 
-.markdown .language-ruby .highlight {
+.markdown .highlighter-rouge .highlight {
   padding-left: 10px;
   overflow: auto;
 }
