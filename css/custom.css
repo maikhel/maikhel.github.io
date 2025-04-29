@@ -1,17 +1,37 @@
-html, body {
-  height: 100%;
-  margin: 0;
+html,
+body {
+    height: 100%;
+    margin: 0;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
 
 .content {
-  flex: 1;
+    flex: 1;
 }
 
 .footer {
-  flex-shrink: 0;
+    flex-shrink: 0;
+}
+
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.lh-copy {
+    line-height: 1.75;
 }
