@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/maikhel/jekyll-turbo.git
+  revision: 23ea78d1e1f122f0bec579247572caf3db98279c
+  specs:
+    jekyll-turbo (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -155,6 +161,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-paginate
+  jekyll-turbo!
 
 RUBY VERSION
    ruby 3.3.3p89

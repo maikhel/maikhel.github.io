@@ -10,16 +10,16 @@ gallery_page: "/gallery"
 about_page: "/about"
 
 paginate: 5
-plugins: [jekyll-paginate]
+plugins:
+  - jekyll-paginate
+  - jekyll-turbo
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "photos"
     values:
       image: true
-  -
-    scope:
+  - scope:
       path: "photos/beskid"
     values:
       image: false

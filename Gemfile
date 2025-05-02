@@ -6,3 +6,5 @@ ruby '~>3.3.3'
 
 gem 'jekyll'
 gem 'jekyll-paginate'
+
+gem "jekyll-turbo", github: "maikhel/jekyll-turbo"
