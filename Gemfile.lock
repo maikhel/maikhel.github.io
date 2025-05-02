@@ -1,8 +1,9 @@
 GIT
   remote: https://github.com/maikhel/jekyll-turbo.git
-  revision: 23ea78d1e1f122f0bec579247572caf3db98279c
+  revision: bcc37f6ab80801545226f8a38906d7af70ff8f4b
   specs:
     jekyll-turbo (0.1.0)
+      jekyll (>= 3.7, < 5.0)
 
 GEM
   remote: https://rubygems.org/
