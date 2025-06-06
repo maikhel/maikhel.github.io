@@ -11,8 +11,9 @@ body {
 
 @font-face {
     font-family: "Open Sans";
-    src: url("../fonts/OpenSans.ttf") format("truetype");
-    font-weight: normal;
+    src: url("../fonts/OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
+    font-weight: 1 999; /* Variable font range */
+    font-stretch: 75% 100%; /* Optional, for wdth axis */
     font-style: normal;
 }
 
