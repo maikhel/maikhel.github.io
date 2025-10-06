@@ -45,7 +45,7 @@ and more information
 <div class="pagination">
   <div class="flex items-center justify-center">
     {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="f5 no-underline black dark--white bg-animate hover-bg-gray hover-white inline-flex items-center pa2 ph3 ba b--gray border-box">
+      <a href="{{ paginator.previous_page_path }}" class="f5 no-underline black dark--white bg-animate hover-bg-gray hover-white inline-flex items-center pa2 ph3 ba b--gray border-box" data-turbo-frame="main_frame" data-turbo-action="advance">
           <svg class="w1" data-icon="chevronLeft" viewBox="0 0 32 32" style="fill:currentcolor">
             <title>chevronLeft icon</title>
             <path d="M20 1 L24 5 L14 16 L24 27 L20 31 L6 16 z"></path>
@@ -57,7 +57,7 @@ and more information
     <p class="f5 mh3"> Page {{ paginator.page }} out of {{ paginator.total_pages }} </p>
 
     {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="f5 no-underline black dark--white bg-animate hover-bg-gray hover-white inline-flex items-center pa2 ph3 ba b--gray border-box">
+      <a href="{{ paginator.next_page_path }}" class="f5 no-underline black dark--white bg-animate hover-bg-gray hover-white inline-flex items-center pa2 ph3 ba b--gray border-box" data-turbo-frame="main_frame" data-turbo-action="advance">
         <span class="pr1">Next</span>
         <svg class="w1" data-icon="chevronRight" viewBox="0 0 32 32" style="fill:currentcolor">
           <title>chevronRight icon</title>
