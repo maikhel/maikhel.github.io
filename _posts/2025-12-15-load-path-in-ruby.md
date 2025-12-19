@@ -211,3 +211,5 @@ Ruby's way of handling gem versions and loading files is pretty sophisticated. C
 Next time you see it, you will not only fix it easily - you will understand *why* it happened.
 
 *This post was originally published on [Visuality blog](https://www.visuality.pl/posts/load_path_in_ruby_how_it_works).*
+
+*And also mentioned in [Ruby Weekly newsletter](https://rubyweekly.com/issues/780)* 🎉
