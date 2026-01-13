@@ -8,6 +8,17 @@ greeting: "Hello There!"
 homeurl: "/index"
 gallery_page: "/gallery"
 about_page: "/about"
+twitter:
+  username: mlecicki
+  card: summary
+
+social:
+  name: Michał Łęcicki
+  links:
+    - https://twitter.com/mlecicki
+    - https://www.linkedin.com/in/maikhel
+    - https://github.com/maikhel
+    - https://stackoverflow.com/users/8893167/maikhel
 
 paginate: 5
 paginate_path: "/posts/:num/"
