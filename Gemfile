@@ -6,5 +6,6 @@ ruby '~>3.3.3'
 
 gem 'jekyll'
 gem 'jekyll-paginate'
+gem 'jekyll-sitemap'
 
 gem 'jekyll-turbo', '~> 0.1.0'
