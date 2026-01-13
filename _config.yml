@@ -15,6 +15,7 @@ plugins:
   - jekyll-paginate
   - jekyll-turbo
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 defaults:
   - scope:
