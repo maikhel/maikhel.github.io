@@ -3,6 +3,7 @@ image: "grain_field.webp"
 min_image: "grain_field_min.webp"
 layout: blogpost
 title:  "Handling Errors in Concurrent Ruby"
+description: "Concurrent Ruby error handling guide - learn Future lifecycle states, error strategies, and practical implementation for robust async Ruby applications"
 excerpt_separator: <!--more-->
 ---
 

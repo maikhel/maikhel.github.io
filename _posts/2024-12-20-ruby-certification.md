@@ -3,6 +3,7 @@ image: "ruby_certificate_horizontal.webp"
 min_image: "ruby_certificate_min.webp"
 layout: blogpost
 title:  "How to become Ruby Certified Programmer"
+description: "Ruby Association Certified Programmer guide - learn exam topics, preparation strategies, study materials, and tips for passing Ruby certification"
 excerpt_separator: <!--more-->
 ---
 

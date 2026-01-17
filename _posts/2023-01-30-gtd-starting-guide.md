@@ -3,6 +3,7 @@ image: "lodka.webp"
 min_image: "lodka_min.webp"
 layout: blogpost
 title:  "5 steps to start using Getting Things Done"
+description: "Getting Things Done beginner's guide - learn 5 practical steps to start implementing GTD productivity system from reading the book to building consistent habits"
 excerpt_separator: <!--more-->
 ---
 

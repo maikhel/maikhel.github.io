@@ -3,6 +3,7 @@ image: "thing.webp"
 min_image: "thing_min.webp"
 layout: blogpost
 title:  "A simple guide to pessimistic locking in Rails"
+description: "Rails pessimistic locking tutorial - learn how to implement database locks, handle race conditions, and test concurrent operations in Ruby on Rails"
 excerpt_separator: <!--more-->
 ---
 

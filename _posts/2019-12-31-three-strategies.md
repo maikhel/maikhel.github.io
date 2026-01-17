@@ -2,6 +2,7 @@
 image: "three_strategies.webp"
 layout: blogpost
 title:  "Three strategies that work in board games and in real life"
+description: "Productivity strategies from board games - learn optimization, natural planning, and focus techniques that work in both gaming and real life"
 excerpt_separator: <!--more-->
 external_url: "https://www.visuality.pl/posts/three-strategies-that-work-in-board-games-and-in-real-life"
 ---

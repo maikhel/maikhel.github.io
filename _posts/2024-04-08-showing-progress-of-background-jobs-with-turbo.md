@@ -3,6 +3,7 @@ image: "robot.webp"
 min_image: "robot_min.webp"
 layout: blogpost
 title:  "Showing progress of background jobs with Turbo"
+description: "Rails Turbo progress bars - learn two methods to display real-time background job progress using Active Record broadcasts and direct Turbo streams"
 excerpt_separator: <!--more-->
 ---
 

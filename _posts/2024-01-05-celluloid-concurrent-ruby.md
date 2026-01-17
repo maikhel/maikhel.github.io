@@ -3,6 +3,7 @@ image: "lollipops.webp"
 min_image: "lollipops_min.webp"
 layout: blogpost
 title:  "From Celluloid to Concurrent Ruby: Practical Examples of Multithreading Calls"
+description: "Ruby multithreading comparison - learn practical examples using Thread.new, Celluloid actors, and Concurrent Ruby futures for async programming"
 excerpt_separator: <!--more-->
 ---
 

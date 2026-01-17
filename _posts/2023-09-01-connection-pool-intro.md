@@ -3,6 +3,7 @@ image: "window.webp"
 min_image: "window_min.webp"
 layout: blogpost
 title:  "Easy introduction to Connection Pool in ruby"
+description: "Ruby connection pooling guide - learn how to improve performance with ConnectionPool gem for RabbitMQ and other external services with practical examples"
 excerpt_separator: <!--more-->
 ---
 

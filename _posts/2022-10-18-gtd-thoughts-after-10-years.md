@@ -2,6 +2,7 @@
 image: "palmy.webp"
 layout: blogpost
 title:  "My thoughts after using Getting Things Done for 10 years"
+description: "Getting Things Done long-term review - pros, cons, and practical insights after 10 years of using GTD productivity system for personal and work organization"
 excerpt_separator: <!--more-->
 ---
 

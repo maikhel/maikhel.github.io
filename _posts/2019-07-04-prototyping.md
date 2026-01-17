@@ -2,6 +2,7 @@
 image: "machine.webp"
 layout: blogpost
 title:  "Let's prototype"
+description: "Software prototyping strategies - learn throw-away vs evolutionary prototyping, benefits, risks, and when to use prototyping in software development"
 excerpt_separator: <!--more-->
 external_url: "https://www.visuality.pl/posts/let-s-prototype"
 ---
