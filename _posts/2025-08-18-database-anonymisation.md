@@ -3,6 +3,7 @@ image: "mask.webp"
 min_image: "mask_min.webp"
 layout: blogpost
 title:  "Tradeoffs of Anonymising Production Data"
+description: "Database anonymisation in Ruby on Rails apps - revisited"
 excerpt_separator: <!--more-->
 ---
 
