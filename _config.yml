@@ -11,10 +11,6 @@ homeurl: "/index"
 gallery_page: "/gallery"
 about_page: "/about"
 permalink: /blog/:title/
-twitter:
-  username: mlecicki
-  card: summary
-
 social:
   name: Michał Łęcicki
   links:
