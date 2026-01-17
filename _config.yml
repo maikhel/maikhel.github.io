@@ -1,9 +1,11 @@
-# Site settings
-title: maikhel
+title: "Maikhel’s Blog"
+description: "Ruby developer writing about refactoring, maintainable code, and engineering practices."
 email: mlecicki@live.com
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://maikhel.github.io"
 greeting: "Hello There!"
+author:
+  name: Maikhel
 
 homeurl: "/index"
 gallery_page: "/gallery"
