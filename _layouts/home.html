@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<header class="stack">
+  <h1>{{ site.title }}</h1>
+  <p class="meta">Software engineer focused on thinking, responsibility, and getting features done.</p>
+</header>
+
+<main>
+  <section class="stack-lg">
+    {{ content }}
+  </section>
+
+  <section>
+    <h2>Selected Talks</h2>
+
+    {% assign talks = site.talks | where: "homepage", true | sort: "order" %}
+    {% for talk in talks %}
+      {% include talk_preview.html talk=talk %}
+    {% endfor %}
+
+    <p class="meta"><a href="/talks/">All talks</a></p>
+  </section>
+
+  <section>
+    <h2>Selected Writing</h2>
+
+    {% assign posts = site.posts | where: "homepage", true | slice: 0, 3 %}
+    {% for post in posts %}
+      {% include post_preview.html post=post %}
+    {% endfor %}
+
+    <p class="meta"><a href="/blog/">Browse all posts</a></p>
+  </section>
+
+  <section>
+    <h2>Books</h2>
+    <article>
+      <h3>Getting Things Done — David Allen</h3>
+      <p class="meta">A system I've used for over a decade to manage both professional and personal work with clarity and calm.</p>
+    </article>
+  </section>
+
+  <footer class="stack">
+    <p>
+      <a href="/blog/">Blog</a> ·
+      <a href="/talks/">Talks</a> ·
+      <a href="https://github.com/maikhel">GitHub</a> ·
+      <a href="https://www.linkedin.com/">LinkedIn</a> ·
+      <a href="https://500px.com/">Photos</a>
+    </p>
+  </footer>
+</main>

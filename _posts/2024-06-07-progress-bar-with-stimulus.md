@@ -1,10 +1,11 @@
 ---
-image: "construction.webp"
-min_image: "construction_min.webp"
+homepage: true
+image: "/images/construction.webp"
+min_image: "/images/construction_min.webp"
 layout: blogpost
 title:  "Smooth concurrent updates with Hotwire Stimulus"
 description: "Hotwire Stimulus advanced progress bars - solve concurrent updates conflicts with Stimulus controllers for smooth background job progress display"
-excerpt_separator: <!--more-->
+excerpt_separator: <!--more---
 ---
 
 ![image](/images/construction.webp)
