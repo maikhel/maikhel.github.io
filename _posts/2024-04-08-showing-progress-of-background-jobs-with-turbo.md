@@ -1,5 +1,4 @@
 ---
-homepage: true
 image: "/images/robot.webp"
 min_image: "/images/robot_min.webp"
 layout: blogpost
@@ -49,7 +48,7 @@ class Joke < ApplicationRecord
 end
 ```
 
-We use a callback to invoke broadcasting that replaces the existing progress bar partial with an updated one. 
+We use a callback to invoke broadcasting that replaces the existing progress bar partial with an updated one.
 
 On the frontend side, we open a stream channel with the `turbo_stream_from` command. Its name must match the one from the callback: `[ joke.jokes_request, "jokes_progress_bar" ]`.
 
@@ -111,7 +110,7 @@ The broadcasting method mirrors the previous solution, with one noticeable diffe
 # (..)
 
 <%= render "jokes_progress_bar",
-  actual: @jokes_request.jokes.count, 
+  actual: @jokes_request.jokes.count,
   limit: @jokes_request.amount %>
 ```
 
@@ -129,7 +128,7 @@ And then in progress bar partial:
 ```
 
 
-We can use this approach to broadcast any other changes to the page: adding new joke elements, updating counters, etc. Even re-rendering pagination to ensure we are always displaying the proper page number! 
+We can use this approach to broadcast any other changes to the page: adding new joke elements, updating counters, etc. Even re-rendering pagination to ensure we are always displaying the proper page number!
 
 ![image](/images/progress_pagination.gif)
 

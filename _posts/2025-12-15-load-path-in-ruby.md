@@ -1,6 +1,7 @@
 ---
-image: "wheel.webp"
-min_image: "wheel_min.webp"
+homepage: true
+image: "/images/wheel.webp"
+min_image: "/images/wheel_min.webp"
 layout: blogpost
 title:  "Load Path in Ruby - How It Works?"
 description: "Ruby load path and bundler explained - understand $LOAD_PATH, $LOADED_FEATURES, gem activation, and how to debug Gem::LoadError conflicts"

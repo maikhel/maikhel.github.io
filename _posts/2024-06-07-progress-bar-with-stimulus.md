@@ -1,5 +1,4 @@
 ---
-homepage: true
 image: "/images/construction.webp"
 min_image: "/images/construction_min.webp"
 layout: blogpost
@@ -60,7 +59,7 @@ class FetchJokesService
     missing_jokes_count.times do |num|
       # logic for fetching/creating jokes same as before
       # (...)
-      
+
       add_joke_card(joke)
     end
 
@@ -77,7 +76,7 @@ class FetchJokesService
     )
 
   end
-  
+
   # rest of service code
   # (..)
 end
@@ -147,7 +146,7 @@ export default class extends Controller {
       }
     }))
   }
-  
+
   increment() {
     this.actualValue++
     this.updateProgress()
@@ -176,7 +175,7 @@ In conclusion, the responsibility for displaying updates shifts from the backend
 
 Hotwire Turbo is perfect for transmitting backend updates to the frontend. But for more complex use cases, we need to use another element of Hotwire: Stimulus. The presented solution is an example of manipulating DOM elements with minimal JavaScript. Hopefully, it inspires you in your Hotwire journey!
 
-P. S. Alternative approach with `MutationObserver` is presented in [this Drifting Ruby podcast](https://www.driftingruby.com/episodes/broadcasting-progress-from-background-jobs ). 
+P. S. Alternative approach with `MutationObserver` is presented in [this Drifting Ruby podcast](https://www.driftingruby.com/episodes/broadcasting-progress-from-background-jobs ).
 
 
 *This post was originally published on [Visuality blog](https://www.visuality.pl/posts/smooth-concurrent-updates-with-hotwire-stimulus).*

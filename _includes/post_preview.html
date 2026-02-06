@@ -1,8 +1,18 @@
 <article class="preview">
   {% if post.image %}
-  <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+  <div class="preview-content">
+    <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+    <div class="preview-text">
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p>{{ post.content | strip_html | truncatewords: 30 }}</p>
+    </div>
+  </div>
+  {% else %}
+  <div class="preview-content">
+    <div class="preview-text">
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p>{{ post.content | strip_html | truncatewords: 30 }}</p>
+    </div>
+  </div>
   {% endif %}
-  <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-  <p class="meta">{{ post.date | date: "%B %e, %Y" }}</p>
-  <p>{{ post.content | strip_html | truncatewords: 30 }}</p>
 </article>
