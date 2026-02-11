@@ -30,7 +30,10 @@
     --bg-soft: #073642;
     --text: #eee8d5;
     --text-muted: #93a1a1;
-    --accent: #cb9b3f;
+    --link: #cb4b16;
+    --accent: #b58900;
+    --card: #073642;
+    --border: #586e75;
   }
 }
 
@@ -70,6 +73,10 @@ h2 { font-size: 1.6rem; }
 h3 { font-size: 1.2rem; }
 
 p { margin: var(--space-3) 0; }
+
+img {
+  border-radius: 4px;
+}
 
 .meta {
   font-family: var(--font-sans);
