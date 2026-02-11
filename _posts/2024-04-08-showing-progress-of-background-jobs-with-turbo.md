@@ -7,8 +7,6 @@ description: "Rails Turbo progress bars - learn two methods to display real-time
 excerpt_separator: <!--more-->
 ---
 
-![image](/images/robot.webp)
-
 Hotwire Turbo constantly changes the way we build backend-frontend integrations. Things that were complicated before, can now be done with a few lines of Ruby code. Let me present how to transmit progress information from background jobs into the frontend.
 
 <!--more-->

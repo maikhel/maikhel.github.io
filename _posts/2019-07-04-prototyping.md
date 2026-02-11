@@ -1,15 +1,11 @@
 ---
-image: "machine.webp"
+image: "/images/machine.webp"
 layout: blogpost
 title:  "Let's prototype"
 description: "Software prototyping strategies - learn throw-away vs evolutionary prototyping, benefits, risks, and when to use prototyping in software development"
 excerpt_separator: <!--more-->
 external_url: "https://www.visuality.pl/posts/let-s-prototype"
 ---
-
-
-![image](/images/machine.webp)
-
 
 Uncertainty is an inseparable part of creating any software. At the beginning of the project you never have a full knowledge about future requirements and features. Developers don’t know the whole specification, project manager doesn’t know all clients’s expectations and usually clients are not aware about all features their product should have. When the amount of unspecified requirements is significant, choosing to create a prototype could be really beneficial.
 <!--more-->

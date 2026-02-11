@@ -1,14 +1,11 @@
 ---
-image: "working.webp"
+image: "/images/working.webp"
 layout: blogpost
 title:  "How to receive emails with a Rails app in 2021"
 description: "Rails email receiving solutions - compare Action Mailbox, Griddler, IMAP, and AWS SES for handling inbound emails in Ruby on Rails applications"
 excerpt_separator: <!--more-->
 external_url: "https://www.visuality.pl/posts/how-to-receive-emails-with-a-rails-app-in-2021"
 ---
-
-
-![image](/images/working.webp)
 
 Some time ago, we needed to implement a full email inbox feature in the Ruby on Rails application. It was supposed to have all the basic functionalities that regular email inboxes have: send and receive messages, collect them in threads, have a contact book, etc. While email sending is a relatively frequent feature among Rails applications (there are tons of different solutions around the web), receiving messages is not so popular. So, let’s take a look at possible ways of building an email receiver mechanism with Rails.
 <!--more-->
@@ -49,4 +46,3 @@ This was the most common solution before Rails 6. Basically, developers built a 
 ### Summary
 
 There are many different options to implement email receiving in Ruby on Rails applications. Probably the easiest and most straightforward one is picking Action Mailbox, but it might be not possible for applications with older versions of Rails. In such cases, one should consider other circumstances, such as architecture dependencies, specific feature requirements, or even budget to choose the most suitable solution.
-

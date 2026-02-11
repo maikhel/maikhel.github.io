@@ -1,13 +1,11 @@
 ---
-image: "ruby_certificate_horizontal.webp"
-min_image: "ruby_certificate_min.webp"
+image: "/images/ruby_certificate_horizontal.webp"
+min_image: "/images/ruby_certificate_min.webp"
 layout: blogpost
 title:  "How to become Ruby Certified Programmer"
 description: "Ruby Association Certified Programmer guide - learn exam topics, preparation strategies, study materials, and tips for passing Ruby certification"
 excerpt_separator: <!--more-->
 ---
-
-![image](/images/ruby_certificate_horizontal.webp)
 
 Official certifications aren’t very popular in the Ruby on Rails community, but one is available if you’re interested: the [Ruby Association Certified Ruby Programmer Examination](https://www.ruby.or.jp/en/certification/examination/). This test checks your knowledge of the Ruby programming language. I decided to give it a try! I passed the exam and want to share my insights to help you do the same.
 
