@@ -16,69 +16,12 @@ title: Talks
 
   <section class="stack-lg">
 
-    <h2>Selected Talks</h2>
 
-    <article class="stack">
+    {% assign talks = site.talks | sort: "order" %}
+    {% for talk in talks %}
+      {% include talk_preview.html talk=talk %}
+    {% endfor %}
 
-      <h3>More Ruby, Less Rails: Rediscover the Beauty of Ruby</h3>
-
-      <p>
-        A reminder of how expressive and elegant Ruby can be beyond Rails.
-        This talk revisits core language features, lesser-known ideas like
-        refinements, and what we often forget when working inside frameworks.
-      </p>
-
-      <p class="meta">
-        <a href="#">Slides</a> ·
-        <a href="#">Video</a>
-      </p>
-
-    </article>
-
-    <article class="stack">
-
-      <h3>Future States: Planning for Multiple Paths</h3>
-
-      <p>
-        How to think about system design when the future is uncertain.
-        This talk explores techniques for building systems that adapt to
-        changing requirements without massive rewrites.
-      </p>
-
-      <p class="meta">
-        <a href="#">Slides</a> ·
-        <a href="#">Video</a>
-      </p>
-
-    </article>
-
-    <article class="stack">
-
-      <h3>Shit Happens. Handling Mistakes 101</h3>
-
-      <p>
-        Programmers make mistakes. This talk looks at how to recognize them,
-        handle them effectively, and shape team culture to treat failures as
-        learning opportunities.
-      </p>
-
-      <p>
-        <a href="#">Slides</a>
-      </p>
-
-    </article>
-
-  </section>
-
-  <section class="stack-lg">
-
-    <h2>Other Talks</h2>
-
-    <ul class="stack">
-      <li>Business Archetypes Patterns with Rails</li>
-      <li>From Idea to Implementation: A Practical Guide to Event Storming</li>
-      <li>More Ruby, Less Rails (extended version)</li>
-    </ul>
 
   </section>
 

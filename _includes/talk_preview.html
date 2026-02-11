@@ -1,7 +1,25 @@
-<article class="preview">
-  <h3><a href="{{ talk.url | relative_url }}">{{ talk.title }}</a></h3>
-  <p>{{ talk.content | strip_html | truncatewords: 30 }}</p>
-  {% if talk.slides_url %}
-  <p class="meta"><a href="{{ talk.slides_url }}">Slides</a></p>
-  {% endif %}
+<article class="stack">
+
+  <h3>{{ include.talk.title }}</h3>
+
+  <p>
+    {{ include.talk.content | markdownify | strip_html }}
+  </p>
+
+  <p class="meta">
+    {% if include.talk.slides_url %}
+      <a href="{{ include.talk.slides_url }}">Slides</a>
+    {% endif %}
+
+    {% if include.talk.video_url %}
+      {% if include.talk.slides_url %} · {% endif %}
+      <a href="{{ include.talk.video_url }}">Video</a>
+    {% endif %}
+
+    {% if include.talk.materials_url %}
+      {% if include.talk.slides_url %} · {% endif %}
+      <a href="{{ include.talk.materials_url }}">Materials</a>
+    {% endif %}
+  </p>
+
 </article>
