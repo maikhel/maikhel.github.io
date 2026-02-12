@@ -1,18 +1,11 @@
 <article class="preview">
-  {% if post.image %}
   <div class="preview-content">
-    <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+    <img src="{{ post.min_image | relative_url }}" alt="{{ post.title }}">
+
     <div class="preview-text">
       <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-      <p>{{ post.content | strip_html | truncatewords: 30 }}</p>
+      <p>{{ post.description | strip_html }}</p>
     </div>
+
   </div>
-  {% else %}
-  <div class="preview-content">
-    <div class="preview-text">
-      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-      <p>{{ post.content | strip_html | truncatewords: 30 }}</p>
-    </div>
-  </div>
-  {% endif %}
 </article>

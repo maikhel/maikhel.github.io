@@ -99,19 +99,24 @@ a:hover { text-decoration: underline; }
 
 .preview-content {
   display: flex;
-  gap: var(--space-3);
+  gap: var(--space-4);
   align-items: flex-start;
 }
 
 .preview img {
   width: 180px;
   height: auto;
+  margin-top: var(--space-2);
   flex-shrink: 0;
   object-fit: cover;
 }
 
 .preview-text {
   flex: 1;
+}
+
+.preview-text h3 {
+  margin-top: 0;
 }
 
 section { margin-top: var(--space-6); }
