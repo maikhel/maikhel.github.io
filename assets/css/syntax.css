@@ -10,6 +10,7 @@
 .highlighter-rouge .highlight {
   padding: 0 var(--space-2);
   overflow: auto;
+  border-radius: 4px;
 }
 
 .highlight table td { padding: 5px; }
