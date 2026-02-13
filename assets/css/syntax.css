@@ -1,8 +1,22 @@
+.highlighter-rouge {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 44rem;
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.highlighter-rouge .highlight {
+  padding: 0 var(--space-2);
+  overflow: auto;
+}
+
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
 .highlight, .highlight .w {
   color: #586e75;
-  background-color: #f3f0ea;
+  background-color: var(--bg-soft);
 }
 .highlight .err {
   color: #002b36;
@@ -86,7 +100,7 @@
   .highlight table pre { margin: 0; }
   .highlight, .highlight .w {
     color: #93a1a1;
-    background-color: #002b36;
+    background-color: var(--bg-soft);
   }
   .highlight .err {
     color: #002b36;
