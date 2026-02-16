@@ -139,3 +139,14 @@ footer {
   font-family: var(--font-sans);
   font-size: 0.9rem;
 }
+
+@media (max-width: 600px) {
+  .preview-content {
+    flex-direction: column;
+  }
+
+  .preview img {
+    width: 100%;
+    height: auto;
+  }
+}
