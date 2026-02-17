@@ -110,6 +110,8 @@ a:hover { text-decoration: underline; }
 
 .preview { margin-top: var(--space-4); }
 
+.preview:first-of-type { margin-top: var(--space-6); }
+
 .preview-content {
   display: flex;
   gap: var(--space-4);
