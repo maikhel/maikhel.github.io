@@ -1,0 +1,48 @@
+---
+layout: default
+---
+<main>
+  <header class="stack">
+    <h1>{{ site.title }}</h1>
+    <p class="meta">Software engineer focused on getting features done.</p>
+  </header>
+
+  <hr class="hr">
+
+  <section class="stack-lg">
+    {{ content }}
+  </section>
+
+  <section>
+    <h2>Selected Talks</h2>
+
+    {% assign talks = site.talks | where: "homepage", true | sort: "order" %}
+    {% for talk in talks %}
+      {% include talk_preview.html talk=talk %}
+    {% endfor %}
+
+    <p class="meta"><a href="/talks/">All talks</a></p>
+  </section>
+
+  <section>
+    <h2>Selected Writing</h2>
+
+    {% assign posts = site.posts | where: "homepage", true | slice: 0, 3 %}
+    {% for post in posts %}
+      {% include post_preview.html post=post %}
+    {% endfor %}
+
+    <p class="meta"><a href="/blog/">Browse all posts</a></p>
+  </section>
+
+  <section>
+    <h2>Books</h2>
+    <article>
+      <h3>Getting Things Done - David Allen</h3>
+      <p>A system I've used for over a decade to manage both professional and personal work.</p>
+      <p class="meta">
+        <a href="/blog/gtd-thoughts-after-10-years/">Read my posts on GTD</a>
+      </p>
+    </article>
+  </section>
+</main>

@@ -3,13 +3,10 @@ description: "Ruby developer writing about refactoring, maintainable code, and e
 email: mlecicki@live.com
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://maikhel.github.io"
-greeting: "Hello There!"
 author:
   name: Maikhel
 
 homeurl: "/index"
-gallery_page: "/gallery"
-about_page: "/about"
 permalink: /blog/:title/
 social:
   name: Michał Łęcicki
@@ -19,23 +16,15 @@ social:
     - https://github.com/maikhel
     - https://stackoverflow.com/users/8893167/maikhel
 
-paginate: 5
-paginate_path: "/posts/:num/"
+collections:
+  talks:
+    output: true
+    permalink: /talks/:name/
+
 plugins:
-  - jekyll-paginate
   - jekyll-turbo
   - jekyll-sitemap
   - jekyll-seo-tag
-
-defaults:
-  - scope:
-      path: "photos"
-    values:
-      image: true
-  - scope:
-      path: "photos/beskid"
-    values:
-      image: false
 
 # Build settings
 markdown: kramdown

@@ -1,13 +1,12 @@
 ---
-image: "wheel.webp"
-min_image: "wheel_min.webp"
+homepage: true
+image: "/images/wheel.webp"
+min_image: "/images/wheel_min.webp"
 layout: blogpost
 title:  "Load Path in Ruby - How It Works?"
-description: "Ruby load path and bundler explained - understand $LOAD_PATH, $LOADED_FEATURES, gem activation, and how to debug Gem::LoadError conflicts"
+description: "Ruby load path and bundler explained - understand $LOAD_PATH, $LOADED_FEATURES, gem activation, and how to debug Gem::LoadError conflicts."
 excerpt_separator: <!--more-->
 ---
-
-![image](/images/wheel.webp)
 
 Recently, I encountered a weird Ruby error: \
 `Gem::LoadError: You have already activated X, but your Gemfile requires Y`. \
@@ -211,6 +210,5 @@ gem "uri"
 Ruby's way of handling gem versions and loading files is pretty sophisticated. Connected with Bundler, it provides an elegant way to handle dependencies. The error we discussed is just Ruby protecting you from running two different versions of a gem at once.
 Next time you see it, you will not only fix it easily - you will understand *why* it happened.
 
-*This post was originally published on [Visuality blog](https://www.visuality.pl/posts/load_path_in_ruby_how_it_works).*
-
+*This post was originally published on [Visuality blog](https://www.visuality.pl/posts/load_path_in_ruby_how_it_works).* \
 *And also mentioned in [Ruby Weekly newsletter](https://rubyweekly.com/issues/780)* 🎉

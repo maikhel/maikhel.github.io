@@ -1,12 +1,10 @@
 ---
-image: "tree.webp"
+image: "/images/tree.webp"
 layout: blogpost
 title:  "Why I use Getting Things Done"
 description: "Getting Things Done productivity framework benefits - learn how GTD frees mental space, provides flexibility, and integrates with other productivity methods"
 excerpt_separator: <!--more-->
 ---
-
-![image](/images/tree.webp)
 
 I've always been curious about productivity tools and techniques to try. But when I read a book written by David Allen, it amazed me. I finally found a framework that could replace the to-do lists I was rewriting every day!
 Let me share the most beneficial aspects of GTD.
@@ -19,7 +17,7 @@ This is the biggest advantage of GTD ever. Most to-do applications and productiv
 
 I find this aspect of GTD especially beneficial for my work as a programmer. First, I don't have to worry about emails, Slack notifications, or context switching when I code. I have a defined way of handling all incoming stuff, so I know I won't miss anything important.
 Second, I have a mental space that allows me to focus only on coding. David Allen (and others) call this state 'flooding mind' - when a person can focus on the activity, forgetting about the outside world. Work done in this state is innovative, original, and very productive.
-  
+
 
 ### Flexibility
 

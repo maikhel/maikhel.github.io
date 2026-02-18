@@ -1,0 +1,25 @@
+<article class="stack">
+
+  <h3>{{ include.talk.title }}</h3>
+
+  <p>
+    {{ include.talk.content | markdownify | strip_html }}
+  </p>
+
+  <p class="meta">
+    {% if include.talk.slides_url %}
+      <a href="{{ include.talk.slides_url }}">Slides</a>
+    {% endif %}
+
+    {% if include.talk.video_url %}
+      {% if include.talk.slides_url %} · {% endif %}
+      <a href="{{ include.talk.video_url }}">Video</a>
+    {% endif %}
+
+    {% if include.talk.materials_url %}
+      {% if include.talk.slides_url %} · {% endif %}
+      <a href="{{ include.talk.materials_url }}">Materials</a>
+    {% endif %}
+  </p>
+
+</article>

@@ -1,21 +1,19 @@
 ---
-image: "lodka.webp"
-min_image: "lodka_min.webp"
+image: "/images/lodka.webp"
+min_image: "/images/lodka_min.webp"
 layout: blogpost
 title:  "5 steps to start using Getting Things Done"
 description: "Getting Things Done beginner's guide - learn 5 practical steps to start implementing GTD productivity system from reading the book to building consistent habits"
 excerpt_separator: <!--more-->
 ---
 
-![image](/images/lodka.webp)
-
 Welcome to my guide on how to boost your productivity with Getting Things Done. I already shared [my experiences](https://maikhel.github.io/2022/10/18/gtd-thoughts-after-10-years.html) and [tools](https://maikhel.github.io/2022/12/22/gtd-setup.html) in other blog posts. This time I have a step-by-step recipe to help you start using GTD. Grab a coffee and let's go!
 
 <!--more-->
 
 ### 1. Read the book
-You need to know **how** to use GTD, but most importantly - **why**. Only reading the book can give you a deep understanding of the author's intent. 
-And let's be honest - it has about 300 pages, so three evenings and you will make it. 
+You need to know **how** to use GTD, but most importantly - **why**. Only reading the book can give you a deep understanding of the author's intent.
+And let's be honest - it has about 300 pages, so three evenings and you will make it.
 Of course, after completing it you might decide that Getting Things Done is not for you. That's fine, you just read a best-selling book.
 
 ### 2. Understand your needs
@@ -36,11 +34,11 @@ At this point, I'd recommend thinking about a few possible edge cases:
 - what if you have a great idea during a shower? Or when driving your car? How would you put it into the system?
 - what if your computer battery is empty? Would you have access to your notes elsewhere?
 - security: how are you going to store confidential information? Should your wife have access to your notebook app? What about backup?
-Of course, you can't prepare for every possible scenario. But it's helpful to grasp some in advance. 
+Of course, you can't prepare for every possible scenario. But it's helpful to grasp some in advance.
 
 ### 5. Be consequent
 Probably the hardest one. In the beginning, when your motivation is high,  the new system may shine. But after some time, the first struggle will occur. You need to consequently do weekly reviews, adequately handle incoming stuff and constantly update the system. Without it, your GTD notebook won't be reliable.
-At some point, you will realize that keeping your GTD notebook has some cost. It's inevitable. The thing is: hold it as a sum of small steps. 
+At some point, you will realize that keeping your GTD notebook has some cost. It's inevitable. The thing is: hold it as a sum of small steps.
 Clear an "incoming things" section whenever possible during the day, use idle moments to complete simple tasks, and choose actions based on your energy and possibilities. That's the key to success: build your tiny habits, so the maintenance of the GTD system happens in the background, almost unnoticeable.
 
 ### Summary

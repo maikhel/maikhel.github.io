@@ -1,14 +1,11 @@
 ---
-image: "thing.webp"
-min_image: "thing_min.webp"
+image: "/images/thing.webp"
+min_image: "/images/thing_min.webp"
 layout: blogpost
 title:  "A simple guide to pessimistic locking in Rails"
 description: "Rails pessimistic locking tutorial - learn how to implement database locks, handle race conditions, and test concurrent operations in Ruby on Rails"
 excerpt_separator: <!--more-->
 ---
-
-![image](/images/thing.webp)
-
 
 In the Rails world, optimistic locking is relatively well known, while its pessimistic alternative is often overlooked. In this blog post, I will present how to effectively use pessimistic locking in Rails applications.
 
@@ -29,7 +26,7 @@ The remarkable benefit of pessimistic locking is the fact that it doesn't affect
 ActiveRecord::Base.transaction do
   # SELECT * FROM INVOICES WHERE id=? FOR UPDATE
   invoice = Invoice.lock.find(invoice_id)
-  
+
   return unless invoice.status == 'new'
 
   invoice.create_payment

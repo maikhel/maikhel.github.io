@@ -1,13 +1,12 @@
 ---
-image: "mask.webp"
-min_image: "mask_min.webp"
+homepage: true
+image: "/images/mask.webp"
+min_image: "/images/mask_min.webp"
 layout: blogpost
 title:  "Tradeoffs of Anonymising Production Data"
-description: "Database anonymisation in Ruby on Rails apps - revisited"
+description: "Discussing basics of database anonymisation in production Ruby on Rails systems. Presenting hidden costs and AI integrations."
 excerpt_separator: <!--more-->
 ---
-
-![image](/images/mask.webp)
 
 At some point, in every Rails project, someone says: 'Hey, our testing dataset is not relevant anymore, maybe we could anonymise production data and use it instead?'. That's when a tough journey begins: ensuring data privacy, updating scripts, and securing infrastructure. Let's explore the challenges you might face if you decide to anonymise your production data.
 

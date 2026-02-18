@@ -1,13 +1,11 @@
 ---
-image: "grain_field.webp"
-min_image: "grain_field_min.webp"
+image: "/images/grain_field.webp"
+min_image: "/images/grain_field_min.webp"
 layout: blogpost
 title:  "Handling Errors in Concurrent Ruby"
 description: "Concurrent Ruby error handling guide - learn Future lifecycle states, error strategies, and practical implementation for robust async Ruby applications"
 excerpt_separator: <!--more-->
 ---
-
-![image](/images/grain_field.webp)
 
 In the previous [blog post on Ruby concurrency](https://www.visuality.pl/posts/from-celluloid-to-concurrent-ruby-practical-examples-of-multithreading-calls), we explored how to spawn many sub-threads with a concurrent-ruby gem. Let's continue the topic and get to know the `Future` class much better: its life cycle, state methods, and strategies for error handling.
 

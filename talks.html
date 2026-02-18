@@ -1,0 +1,41 @@
+---
+layout: default
+title: Talks
+---
+
+<main class="stack-lg">
+
+  <header class="stack">
+    <p class="meta">
+      <a href="/">Maikhel</a> · <a href="/talks/">Talks</a>
+    </p>
+
+    <h1>Talks</h1>
+
+    <p>
+      A selection of talks about Ruby, system design, ownership, and how teams
+      build software together.
+    </p>
+  </header>
+
+  <hr class="hr">
+
+  <section class="stack-lg">
+
+
+    {% assign talks = site.talks | sort: "order" %}
+    {% for talk in talks %}
+      {% include talk_preview.html talk=talk %}
+    {% endfor %}
+
+
+  </section>
+
+  <section class="stack">
+    <p class="meta">
+      Interested in inviting me to speak?
+      <a href="mailto:m.lecicki@visuality.pl">Get in touch</a>.
+    </p>
+  </section>
+
+</main>

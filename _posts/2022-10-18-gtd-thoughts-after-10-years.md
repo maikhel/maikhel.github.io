@@ -1,12 +1,10 @@
 ---
-image: "palmy.webp"
+image: "/images/palmy.webp"
 layout: blogpost
 title:  "My thoughts after using Getting Things Done for 10 years"
 description: "Getting Things Done long-term review - pros, cons, and practical insights after 10 years of using GTD productivity system for personal and work organization"
 excerpt_separator: <!--more-->
 ---
-
-![image](/images/palmy.webp)
 
 Getting Things Done is an important part of my life. I've been using it for almost ten years now! It helps to organize my projects and boost my productivity. Let me share my thoughts about the pros and cons of this method. Enjoy reading!
 
@@ -26,12 +24,12 @@ When you practice creating well-defined, doable actions, you start to think diff
 Using well build and adjusted GTD system on daily basis is helpful. It makes dealing with complex projects far easier. But a good GTD system shines in the hard times. When there is a significant amount of work; something unexpected happened, or a big project is being executed. In such moments it's easy to feel overwhelmed and lost. But all you need to do is to stick to GTD habits even more. Have all projects in one place, define relevant next actions, and choose the right items to execute first. Doing weekly reviews is essential here. It helps in being up-to-date even in the biggest chaos. Putting **all** needed actions into the OneNote notebook releases mental space for dealing with the hardest tasks.
 
 ### Checklists
-A very small aspect, yet the thing I love. In my "Notes" section I have a page with checklists. Whenever I see something that is repeatable in my life and requires more than a few steps, I create a checklist for it. So I have a variety of checklists: 
+A very small aspect, yet the thing I love. In my "Notes" section I have a page with checklists. Whenever I see something that is repeatable in my life and requires more than a few steps, I create a checklist for it. So I have a variety of checklists:
 - what to pack on 2-week vacations
 - how to prepare for a mountains hike trip
 - what software to install on a fresh Windows desktop
 - what to check during the weekly review
-- how to prepare my house for the winter season etc. 
+- how to prepare my house for the winter season etc.
 
 The beauty of GTD is that I still use lists created many years ago - it's easily accessible at any moment and saves me a lot of time.
 
@@ -42,7 +40,7 @@ The beauty of GTD is that I still use lists created many years ago - it's easily
 Of course, everything comes at a price, so there are also a few challenging aspects of Getting Things Done. Specifically:
 
 ### Weekly reviews
-The most difficult part for me. In theory, one should make a weekly or bi-weekly review of the GTD system to keep it up-to-date. It's essential. Having an outdated project list not only slows down the progress in them but decreases the reliability of the system. And if the system is not reliable why would you want to use it? 
+The most difficult part for me. In theory, one should make a weekly or bi-weekly review of the GTD system to keep it up-to-date. It's essential. Having an outdated project list not only slows down the progress in them but decreases the reliability of the system. And if the system is not reliable why would you want to use it?
 So you need to find two or three hours each week for system review. It's not easy. And the task is a little boring. But after each review, especially after a long pause, I have a feeling of gaining full control of my life again. I know what to do and I'm motivated because I know where to start.
 
 ### Tools
@@ -61,7 +59,7 @@ To me, GTD is a great method for managing current tasks and priorities. For stor
 
 
 ## Summary
-I used GTD in very different circumstances, at different stages of my life. It helped me in managing many complex projects: my wedding, house renovation, and bachelor's degree paper. And I use it on daily basis to handle my daily tasks. The method has many great features, but also challenges; it doesn't solve all the problems your productivity might struggle with. 
+I used GTD in very different circumstances, at different stages of my life. It helped me in managing many complex projects: my wedding, house renovation, and bachelor's degree paper. And I use it on daily basis to handle my daily tasks. The method has many great features, but also challenges; it doesn't solve all the problems your productivity might struggle with.
 If you are wondering if GTD is for you - I recommend giving it a try!
 
 P. S. There will be more blog posts about GTD, and instructions on how to start using GTD are coming soon :)

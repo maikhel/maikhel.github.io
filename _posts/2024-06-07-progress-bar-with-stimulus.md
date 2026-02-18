@@ -1,13 +1,11 @@
 ---
-image: "construction.webp"
-min_image: "construction_min.webp"
+image: "/images/construction.webp"
+min_image: "/images/construction_min.webp"
 layout: blogpost
 title:  "Smooth concurrent updates with Hotwire Stimulus"
 description: "Hotwire Stimulus advanced progress bars - solve concurrent updates conflicts with Stimulus controllers for smooth background job progress display"
 excerpt_separator: <!--more-->
 ---
-
-![image](/images/construction.webp)
 
 In the [previous blog post](https://www.visuality.pl/posts/showing-progress-of-background-jobs-with-turbo), we learned how to create a simple progress bar with Hotwire Turbo and broadcast updates to the frontend. But sometimes, simple solutions aren't enough. It's time to get familiar with another part of Hotwire: Stimulus! In this article, I'll demonstrate how to use Stimulus to handle more complex frontend logic.
 
@@ -59,7 +57,7 @@ class FetchJokesService
     missing_jokes_count.times do |num|
       # logic for fetching/creating jokes same as before
       # (...)
-      
+
       add_joke_card(joke)
     end
 
@@ -76,7 +74,7 @@ class FetchJokesService
     )
 
   end
-  
+
   # rest of service code
   # (..)
 end
@@ -146,7 +144,7 @@ export default class extends Controller {
       }
     }))
   }
-  
+
   increment() {
     this.actualValue++
     this.updateProgress()
@@ -175,7 +173,7 @@ In conclusion, the responsibility for displaying updates shifts from the backend
 
 Hotwire Turbo is perfect for transmitting backend updates to the frontend. But for more complex use cases, we need to use another element of Hotwire: Stimulus. The presented solution is an example of manipulating DOM elements with minimal JavaScript. Hopefully, it inspires you in your Hotwire journey!
 
-P. S. Alternative approach with `MutationObserver` is presented in [this Drifting Ruby podcast](https://www.driftingruby.com/episodes/broadcasting-progress-from-background-jobs ). 
+P. S. Alternative approach with `MutationObserver` is presented in [this Drifting Ruby podcast](https://www.driftingruby.com/episodes/broadcasting-progress-from-background-jobs ).
 
 
 *This post was originally published on [Visuality blog](https://www.visuality.pl/posts/smooth-concurrent-updates-with-hotwire-stimulus).*

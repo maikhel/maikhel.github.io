@@ -1,12 +1,10 @@
 ---
-image: "green.webp"
+image: "/images/green.webp"
 layout: blogpost
 title:  "Data Quality in Ruby on Rails"
 description: "Rails data quality strategies - learn how to maintain data integrity across startup, engineering, and mature application phases with best practices"
 excerpt_separator: <!--more-->
 ---
-
-![image](/images/green.webp)
 
 Preserving data quality is always a challenge. Especially in the Ruby on Rails world where products ship fast.  It means some compromises are made along the way and often data quality is sacrificed. And when it comes to data - it's better to prevent than cure. Continue reading to see how you can avoid many data problems, at different stages of Rails app development. You will thank me later.
 <!--more-->
@@ -86,9 +84,9 @@ Imagine a mature application where half of the development time is spent on main
 
 The development team should be responsible for delivering solutions with excellent code. But it should also take care of data quality. The sooner developers realize that, the better. Open dialogue with business people is essential and helps in building a solid policy for tackling data quality challenges. Depending on the product phase, different actions can be taken. And adequate data equals cleaner code, more interesting tasks, business growth, and developers' happiness.
 
-<br>   
+<br>
 
---- 
+---
 
 [^1]: More about measuring data quality: [https://www.bmc.com/blogs/data-quality/](https://www.bmc.com/blogs/data-quality/)
 [^2]: Proposed division can apply to whole apps or just some parts of them. For example, new features can be delivered in 'startup' mode, while the rest of the app can be mature, requiring bug fixes and maintenance.

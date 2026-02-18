@@ -1,13 +1,12 @@
 ---
-image: "window.webp"
-min_image: "window_min.webp"
+homepage: true
+image: "/images/window.webp"
+min_image: "/images/window_min.webp"
 layout: blogpost
 title:  "Easy introduction to Connection Pool in ruby"
-description: "Ruby connection pooling guide - learn how to improve performance with ConnectionPool gem for RabbitMQ and other external services with practical examples"
+description: "Ruby connection pooling guide - learn how to improve performance with ConnectionPool gem for RabbitMQ and other external services with practical examples."
 excerpt_separator: <!--more-->
 ---
-
-![image](/images/window.webp)
 
 As Rails developers, we often encounter performance issues in different parts of our applications. But establishing connections to external services is usually the place we overlook. Let me introduce the concept of connection pooling and show you an example of easy, performant connections to RabbitMQ.
 
@@ -133,6 +132,5 @@ Also, when you see timeout errors while connecting to an external service, there
 Connection pool allows you to do more with the same resources. You can use it as an alternative to increasing the timeout limit or number of open connections to the external service. ConnectionPool gem is an excellent, simple tool for achieving it in the Ruby on Rails ecosystem.
 
 
-*This post was originally published on [Visuality blog](https://www.visuality.pl/posts/easy-introduction-to-connection-pool-in-ruby).*
-
+*This post was originally published on [Visuality blog](https://www.visuality.pl/posts/easy-introduction-to-connection-pool-in-ruby).* \
 *And also mentioned in [Ruby Weekly newsletter](https://rubyweekly.com/issues/672)* 🎉
