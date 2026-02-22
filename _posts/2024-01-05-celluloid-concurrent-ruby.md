@@ -26,7 +26,6 @@ We will use a `Queue` instance to collect results from async calls. It's the onl
 `DataRequester` class is not relevant, let's just remember that it makes `GET` requests to a given endpoint and returns results (and could be written better, I know).
 
 ```ruby
-
 require 'net/http'
 require 'json'
 
@@ -78,7 +77,6 @@ The solution looks straightforward, but naturally, there are alternatives.
 [Celluloid](https://github.com/celluloid/celluloid) is a great gem, heavily used in the ancient times of Ruby 2.0. Let's incorporate it into our solution.
 
 ```ruby
-
 require 'net/http'
 require 'json'
 require 'celluloid'
@@ -125,7 +123,6 @@ So, how is it done today?
 [Concurrent Ruby](https://github.com/ruby-concurrency/concurrent-ruby) is a modern library providing a vast array of tools for multithreading. Let's take a look at the code:
 
 ```ruby
-
 require 'net/http'
 require 'json'
 require 'concurrent'

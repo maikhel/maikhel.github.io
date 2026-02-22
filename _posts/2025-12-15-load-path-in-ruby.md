@@ -19,7 +19,6 @@ A quick Stack Overflow search and a few commands with Bundler, and it was fixed.
 A quick recap of Ruby file loading fundamentals is a good start. When you want to use the code from a different `rb` file in Ruby, you use the `require` method.
 
 ```ruby
-
 # we have my_class.rb in current dir
 require 'my_class'
 ```
@@ -30,7 +29,6 @@ But we can require files that are not in the current directory.
 Meet `$LOAD_PATH`. It stores absolute paths of places where Ruby code can be searched for.
 
 ```ruby
-
 require 'set'
 
 s = Set[1, 2]
@@ -41,7 +39,6 @@ When you call `require 'set'`, Ruby scans each directory in `$LOAD_PATH` in orde
 When you inspect the content of `$LOAD_PATH`, you notice it already includes dozens of gem directories. That’s because RubyGems hooks into Ruby’s `require` mechanism: when you install a gem, it adds its `lib/` folder to `$LOAD_PATH`.
 
 ```ruby
-
 > puts $LOAD_PATH.last(3)
 # /Users/maikhel/.rbenv/versions/3.4.5/lib/ruby/vendor_ruby
 # /Users/maikhel/.rbenv/versions/3.4.5/lib/ruby/3.4.0
@@ -51,7 +48,6 @@ When you inspect the content of `$LOAD_PATH`, you notice it already includes doz
 It's not all. Ruby also uses the `$LOADED_FEATURES` environment variable to track all files that are already loaded. Helps with performance and avoiding duplicates. And provides very important information: which exact place the file is loaded from.
 
 ```ruby
-
 > puts $LOADED_FEATURES.last(3)
 # /Users/maikhel/.rbenv/versions/3.4.5/lib/ruby/gems/3.4.0/gems/rdoc-6.15.0/lib/rdoc.rb
 # /Users/maikhel/.rbenv/versions/3.4.5/lib/ruby/3.4.0/arm64-darwin23/enc/utf_16le.bundle
@@ -63,14 +59,12 @@ It's not all. Ruby also uses the `$LOADED_FEATURES` environment variable to trac
 # => true
 > $LOADED_FEATURES.size
 # => 454
-
 ```
 
 There is also the `require_relative` method, which skips `$LOAD_PATH` entirely.
 It allows you to provide an exact path relative to the current file.
 
 ```ruby
-
 require_relative '../my_super_class'
 ```
 
@@ -89,7 +83,6 @@ The magic happens in the `Bundler.setup` function (check out the [source code]([
 You can run a test script to compare the content of your `LOAD_PATH` before and after using the Bundler setup:
 
 ```ruby
-
 # before bundler setup
 $LOAD_PATH.size
 # => 28
@@ -113,7 +106,6 @@ Ruby is telling us that we already have a specific gem version, while Bundler st
 RubyGems activates the first matching version it finds in `$LOAD_PATH`. This is often a default gem or globally installed version, which differs from the version required by Bundler. Here is the simple example:
 
 ```bash
-
 ruby script.rb # loads default gems
 
 bundle exec ruby script.rb # loads only Gemfile.lock gems
@@ -135,7 +127,6 @@ You can use the following steps to do it.
 Use `Gem.loaded_specs` to inspect loaded gems:
 
 ```ruby
-
 puts Gem.loaded_specs.map { |n, spec| "#{n} #{spec.version}" }
 # pathname 0.4.0
 # rake 13.3.0
@@ -145,7 +136,6 @@ puts Gem.loaded_specs.map { |n, spec| "#{n} #{spec.version}" }
 # base64 0.3.0
 # benchmark 0.4.1
 # (...)
-
 ```
 
 Or, check the specific gem version with: `puts Gem.loaded_specs["rack"]`
@@ -161,7 +151,6 @@ $LOADED_FEATURES.grep(/rack/)
 # "/Users/maikhel/.rbenv/versions/3.4.6/lib/ruby/gems/3.4.0/gems/railties-7.1.5.2/lib/rails/rack.rb",
 # "/Users/maikhel/.rbenv/versions/3.4.6/lib/ruby/gems/3.4.0/gems/rack-3.2.3/lib/rack/version.rb",
 # "/Users/maikhel/.rbenv/versions/3.4.6/lib/ruby/gems/3.4.0/gems/rack-3.2.3/lib/rack/constants.rb",
-
 ```
 
 This shows you **the exact file paths** Ruby loaded.
@@ -171,13 +160,11 @@ This shows you **the exact file paths** Ruby loaded.
 Use `Gem.find_files`, which shows every possible candidate Ruby could load:
 
 ```ruby
-
 puts Gem.find_files("rack.rb")
 
 # ["/Users/maikhel/.rbenv/versions/3.4.6/lib/ruby/gems/3.4.0/gems/rack-3.2.3/lib/rack.rb",
 # "/Users/maikhel/.rbenv/versions/3.4.6/lib/ruby/gems/3.4.0/gems/rack-3.2.2/lib/rack.rb",
 # "/Users/maikhel/.rbenv/versions/3.4.6/lib/ruby/gems/3.4.0/gems/rack-3.2.1/lib/rack.rb"]
-
 ```
 
 This helps to find **duplicate installs**, default gem conflicts, or globally installed gems.
@@ -196,7 +183,6 @@ Once you know **which gem version was loaded first** and **why** it happened, fi
 - Remove version constraints for default gems from your Gemfile. This one is non-trivial. When your Gemfile restricts a specific version of a default gem, it may cause extra trouble for Ruby and Bundler. Ruby loads default gems before Bundler setup, so Bundler environment override can fail with the error. Recent fixes in Bundler ([like this](https://github.com/ruby/rubygems/pull/8412)) should improve how Bundler handles default gem dependencies.
 
 ```ruby
-
 # before
 gem "uri", "0.10.0"
 

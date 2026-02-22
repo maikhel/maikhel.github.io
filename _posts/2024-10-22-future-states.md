@@ -18,7 +18,6 @@ TL;DR: There is [a great documentation page](https://ruby-concurrency.github.io/
 We can use the `Concurrent::Future` object to spawn an asynchronous execution of the code. The preferable way of doing it utilizes the `Promise` class and `future` factory method:
 
 ```ruby
-
 future = Concurrent::Promises.future { a_long_thing_to_do }
 ```
 
@@ -44,7 +43,6 @@ We will use an example script from the previous blogpost - a service class that 
 Code examples are also available in [my GitHub repository](https://github.com/maikhel/ruby-multithreads-examples)
 
 ```ruby
-
 require 'net/http'
 require 'json'
 require 'concurrent'
@@ -95,7 +93,6 @@ To test program behavior in case of errors, we added `raise ApiError, 'ERROR' if
 Let's update the service to ensure we fetch the desired number of jokes, no matter how many errors were returned by API.
 
 ```ruby
-
 require 'net/http'
 require 'json'
 require 'concurrent'

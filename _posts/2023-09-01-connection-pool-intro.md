@@ -17,7 +17,6 @@ As Rails developers, we often encounter performance issues in different parts of
 Imagine we need to asynchronously send messages to RabbitMQ. We can use [Bunny](https://github.com/ruby-amqp/bunny) gem and have the following ruby method:
 
 ```ruby
-
 def send_message_to_rabbit(message)
   rabbit_client = Bunny.new(
     hostname: ENV.fetch('RABBITMQ_HOST'),
@@ -50,7 +49,6 @@ There is a great ruby gem - [ConnectionPool](https://github.com/mperham/connecti
 First, we need to define a connection pool. In Rails apps, the initializer is the place to go:
 
 ```ruby
-
 require 'bunny'
 require 'connection_pool'
 
@@ -73,7 +71,6 @@ end
 Then, we can use `RABBITMQ_POOL`  in all other places in the app:
 
 ```ruby
-
 def send_message_to_rabbit(message)
   RABBITMQ_POOL.with do |conn|
     channel = conn.create_channel
@@ -90,7 +87,6 @@ In RabbitMQ, we reuse the connections and create channels, which are defined as 
 And what are the results?
 
 ```ruby
-
 n = 5000
 
 def print_time_spent(&block)

@@ -47,7 +47,6 @@ Check out the complete solution in [the repository](https://github.com/maikhel/h
 Update the job/service in your Ruby on Rails application: make just one broadcast that amends new jokes.
 
 ```ruby
-
 # app/services/fetch_jokes_service.rb
 
 class FetchJokesService
@@ -86,7 +85,6 @@ Prepare HTML page to work with Stimulus:
 - add attributes with input values needed for controller, eg: `data-progress-bar-limit-value="<%= @jokes_request.amount %>"`. 
 
 ```erb
-
 <!-- just one stream is needed now -->
 <%= turbo_stream_from @jokes_request, "jokes" %>
 
@@ -122,7 +120,6 @@ Add the most important part: Stimulus controller. Lots of stuff happening here:
 *Huge thanks to [Cezary Kłos](https://www.visuality.pl/posts?author=Cezary+K%C5%82os) , who proposed this solution!*
 
 ```javascript
-
 import { Controller } from "@hotwired/stimulus"
 
 // Connects to data-controller="progress-bar"
@@ -160,9 +157,7 @@ export default class extends Controller {
     this.countTarget.innerText = `${this.actualValue} / ${this.limitValue}`
   }
 }
-
 ```
-
 
 In conclusion, the responsibility for displaying updates shifts from the backend to the frontend. The backend only signals that there is a change, but the Stimulus controller is the one who decides what and how to display. The new solution uses JavaScript and is far more flexible than before.
 
@@ -175,7 +170,5 @@ Hotwire Turbo is perfect for transmitting backend updates to the frontend. But f
 
 P. S. Alternative approach with `MutationObserver` is presented in [this Drifting Ruby podcast](https://www.driftingruby.com/episodes/broadcasting-progress-from-background-jobs ).
 
-
-*This post was originally published on [Visuality blog](https://www.visuality.pl/posts/smooth-concurrent-updates-with-hotwire-stimulus).*
-
+*This post was originally published on [Visuality blog](https://www.visuality.pl/posts/smooth-concurrent-updates-with-hotwire-stimulus).* \
 *And also mentioned in [Hotwire Weekly Newsletter](https://hotwireweekly.com/archive/week-23-new-hotwire-browser-extension-concurrent-updates-with-stimulus/)* 🎉

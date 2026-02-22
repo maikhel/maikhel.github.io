@@ -50,8 +50,7 @@ We use a callback to invoke broadcasting that replaces the existing progress bar
 
 On the frontend side, we open a stream channel with the `turbo_stream_from` command. Its name must match the one from the callback: `[ joke.jokes_request, "jokes_progress_bar" ]`.
 
-```ruby
-
+```erb
 # app/views/jokes_requests/show.html.erb
 
 <%= turbo_stream_from @jokes_request, "jokes_progress_bar" %>
@@ -64,8 +63,7 @@ On the frontend side, we open a stream channel with the `turbo_stream_from` comm
 Lastly, we need to render the partial with a progress bar:
 
 
-```ruby
-
+```erb
 # app/views/jokes_requests/_jokes_progress_bar.html.erb
 
 <% progress_width = jokes_request.jokes.count / jokes_request.amount.to_f * 100 %>
@@ -85,7 +83,6 @@ Keep reading to see a more elegant solution.
 Broadcasting to Turbo Streams doesn't necessarily need to be bound to Active Record. `Turbo::StreamsChannel` class can be used anywhere in the Rails application, so we can invoke it inside the worker/service:
 
 ```ruby
-
 def update_progress_bar(number)
   Turbo::StreamsChannel.broadcast_replace_to(
     [ jokes_request, "jokes_progress_bar" ],
@@ -99,8 +96,7 @@ end
 The broadcasting method mirrors the previous solution, with one noticeable difference: no Active Record dependency. We pass all input to the progress bar partial as separate variables.
 
 
-```ruby
-
+```erb
 # app/views/jokes_requests/show.html.erb
 
 <%= turbo_stream_from @jokes_request, "jokes_progress_bar" %>
@@ -114,8 +110,7 @@ The broadcasting method mirrors the previous solution, with one noticeable diffe
 
 And then in progress bar partial:
 
-```ruby
-
+```erb
 # app/views/jokes_requests/_jokes_progress_bar.html.erb
 
 <% progress_width = actual / limit.to_f * 100 %>
