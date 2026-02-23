@@ -4,6 +4,7 @@ layout: blogpost
 title:  "Why I use Getting Things Done"
 description: "Getting Things Done productivity framework benefits - learn how GTD frees mental space, provides flexibility, and integrates with other productivity methods"
 excerpt_separator: <!--more-->
+tags: [gtd, productivity]
 ---
 
 I've always been curious about productivity tools and techniques to try. But when I read a book written by David Allen, it amazed me. I finally found a framework that could replace the to-do lists I was rewriting every day!

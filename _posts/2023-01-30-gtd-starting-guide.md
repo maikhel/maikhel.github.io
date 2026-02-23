@@ -5,6 +5,7 @@ layout: blogpost
 title:  "5 steps to start using Getting Things Done"
 description: "Getting Things Done beginner's guide - learn 5 practical steps to start implementing GTD productivity system from reading the book to building consistent habits"
 excerpt_separator: <!--more-->
+tags: [gtd, productivity]
 ---
 
 Welcome to my guide on how to boost your productivity with Getting Things Done. I already shared [my experiences](https://maikhel.github.io/2022/10/18/gtd-thoughts-after-10-years.html) and [tools](https://maikhel.github.io/2022/12/22/gtd-setup.html) in other blog posts. This time I have a step-by-step recipe to help you start using GTD. Grab a coffee and let's go!

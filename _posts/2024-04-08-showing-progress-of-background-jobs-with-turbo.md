@@ -5,6 +5,7 @@ layout: blogpost
 title:  "Showing progress of background jobs with Turbo"
 description: "Rails Turbo progress bars - learn two methods to display real-time background job progress using Active Record broadcasts and direct Turbo streams"
 excerpt_separator: <!--more-->
+tags: [ruby, rails, hotwire, patterns]
 ---
 
 Hotwire Turbo constantly changes the way we build backend-frontend integrations. Things that were complicated before, can now be done with a few lines of Ruby code. Let me present how to transmit progress information from background jobs into the frontend.

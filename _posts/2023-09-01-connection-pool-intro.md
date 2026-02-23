@@ -6,6 +6,7 @@ layout: blogpost
 title:  "Easy introduction to Connection Pool in ruby"
 description: "Ruby connection pooling guide - learn how to improve performance with ConnectionPool gem for RabbitMQ and other external services with practical examples."
 excerpt_separator: <!--more-->
+tags: [ruby, rails, architecture, performance]
 ---
 
 As Rails developers, we often encounter performance issues in different parts of our applications. But establishing connections to external services is usually the place we overlook. Let me introduce the concept of connection pooling and show you an example of easy, performant connections to RabbitMQ.

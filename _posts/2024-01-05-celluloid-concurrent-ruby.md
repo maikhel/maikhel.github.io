@@ -5,6 +5,7 @@ layout: blogpost
 title:  "From Celluloid to Concurrent Ruby: Practical Examples of Multithreading Calls"
 description: "Ruby multithreading comparison - learn practical examples using Thread.new, Celluloid actors, and Concurrent Ruby futures for async programming"
 excerpt_separator: <!--more-->
+tags: [ruby, patterns, architecture]
 ---
 
 Multithreading is a hot topic in the Ruby community. There are many good sources of theoretical knowledge (e.g. [this blog post written by Janek](https://www.visuality.pl/posts/concurrency-and-parallelism-in-ruby-processes-threads-fibers-and-ractors)), so let's focus more on practical use cases. In this article, I'm showcasing a few different ways of making asynchronous calls within a single process and ensuring their completion.

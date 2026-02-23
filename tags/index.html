@@ -1,0 +1,41 @@
+---
+layout: default
+title: Topics
+permalink: /tags/
+---
+
+<main class="stack-lg">
+
+  <header class="stack">
+    <p class="meta">
+      <a href="/">Maikhel</a> · Topics
+    </p>
+
+    <h1>Topics</h1>
+
+    <p>
+      Posts grouped by themes I return to in my writing.
+    </p>
+  </header>
+
+  <section class="stack">
+
+    {% assign tags = site.tags | sort %}
+
+    {% for tag in tags %}
+      <article>
+        <h3>
+          <a href="/tags/{{ tag[0] | slugify }}/">
+            {{ tag[0] }}
+          </a>
+        </h3>
+
+        <p class="meta">
+          {{ tag[1].size }} post{% if tag[1].size != 1 %}s{% endif %}
+        </p>
+      </article>
+    {% endfor %}
+
+  </section>
+
+</main>
