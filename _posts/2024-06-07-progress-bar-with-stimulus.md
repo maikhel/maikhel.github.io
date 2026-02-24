@@ -5,7 +5,7 @@ layout: blogpost
 title:  "Smooth concurrent updates with Hotwire Stimulus"
 description: "Hotwire Stimulus advanced progress bars - solve concurrent updates conflicts with Stimulus controllers for smooth background job progress display"
 excerpt_separator: <!--more-->
-tags: [ruby, rails, hotwire, patterns]
+tags: [ruby, rails, hotwire]
 ---
 
 In the [previous blog post](https://www.visuality.pl/posts/showing-progress-of-background-jobs-with-turbo), we learned how to create a simple progress bar with Hotwire Turbo and broadcast updates to the frontend. But sometimes, simple solutions aren't enough. It's time to get familiar with another part of Hotwire: Stimulus! In this article, I'll demonstrate how to use Stimulus to handle more complex frontend logic.

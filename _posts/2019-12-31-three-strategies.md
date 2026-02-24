@@ -5,7 +5,7 @@ title:  "Three strategies that work in board games and in real life"
 description: "Productivity strategies from board games - learn optimization, natural planning, and focus techniques that work in both gaming and real life"
 excerpt_separator: <!--more-->
 external_url: "https://www.visuality.pl/posts/three-strategies-that-work-in-board-games-and-in-real-life"
-tags: [productivity]
+tags: [productivity, career]
 ---
 
 When playing board games, I always try to improve my performance and find some clever way to beat my opponents. I love analysing, discussing and recalling past games to find the most useful strategy and see things that are not seen by other players. This allowed me to form a few simple rules that increase chances of victory — not only in board games but also in real-life activities.

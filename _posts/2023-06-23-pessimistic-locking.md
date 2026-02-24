@@ -5,7 +5,7 @@ layout: blogpost
 title:  "A simple guide to pessimistic locking in Rails"
 description: "Rails pessimistic locking tutorial - learn how to implement database locks, handle race conditions, and test concurrent operations in Ruby on Rails"
 excerpt_separator: <!--more-->
-tags: [ruby, rails, architecture, performance]
+tags: [ruby, rails, performance]
 ---
 
 In the Rails world, optimistic locking is relatively well known, while its pessimistic alternative is often overlooked. In this blog post, I will present how to effectively use pessimistic locking in Rails applications.
