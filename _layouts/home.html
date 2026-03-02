@@ -13,7 +13,7 @@ layout: default
     {{ content }}
   </section>
 
-  <section>
+  <section id="talks">
     <h2>Selected Talks</h2>
 
     {% assign talks = site.talks | where: "homepage", true | sort: "order" %}
@@ -24,7 +24,7 @@ layout: default
     <p class="meta"><a href="/talks/">All talks</a></p>
   </section>
 
-  <section>
+  <section id="writing">
     <h2>Selected Writing</h2>
 
     {% assign posts = site.posts | where: "homepage", true | slice: 0, 3 %}
@@ -35,13 +35,27 @@ layout: default
     <p class="meta"><a href="/blog/">Browse all posts</a></p>
   </section>
 
-  <section>
-    <h2>Books</h2>
+  <section id="books">
+    <h2>Selected Books</h2>
+    <p class="meta">Books that shaped how I think about systems, responsibility, and
+    improvement.</p>
     <article>
       <h3>Getting Things Done - David Allen</h3>
       <p>A system I've used for over a decade to manage both professional and personal work.</p>
       <p class="meta">
-        <a href="/tags/gtd/">Read my posts on GTD</a>
+        <a href="/tags/gtd/">Related writing: GTD and personal systems</a>
+      </p>
+    </article>
+    <article>
+      <h3>Domain-Driven Design - Eric Evans</h3>
+      <p>A classic on modeling complexity. It permanently changed how I think
+      about software structure and domain language.</p>
+    </article>
+    <article>
+      <h3>Black Box Thinking - Matthew Syed</h3>
+      <p>A book that changed my perception of errors - and how we learn from them.</p>
+      <p class="meta">
+        <a href="#talks">Related talk: Shit Happens: Handling Mistakes 101</a>
       </p>
     </article>
   </section>
