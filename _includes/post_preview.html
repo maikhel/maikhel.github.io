@@ -1,9 +1,9 @@
 <article class="preview">
   <div class="preview-content">
-    <img src="{{ post.min_image | relative_url }}" alt="{{ post.title }}">
+    <img src="{{ post.min_image | relative_url }}" alt="{{ post.title }}" style="view-transition-name: post-image">
 
     <div class="preview-text">
-      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <h3><a href="{{ post.url | relative_url }}" style="view-transition-name: post-title">{{ post.title }}</a></h3>
       <p>{{ post.description | strip_html }}</p>
     </div>
 
