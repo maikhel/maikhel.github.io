@@ -1,5 +1,6 @@
 ---
 image: "/images/machine.webp"
+image_width: 600
 layout: blogpost
 title:  "Let's prototype"
 description: "Software prototyping strategies - learn throw-away vs evolutionary prototyping, benefits, risks, and when to use prototyping in software development"

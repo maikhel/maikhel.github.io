@@ -1,5 +1,6 @@
 ---
 image: "/images/working.webp"
+image_width: 600
 layout: blogpost
 title:  "How to receive emails with a Rails app in 2021"
 description: "Rails email receiving solutions - compare Action Mailbox, Griddler, IMAP, and AWS SES for handling inbound emails in Ruby on Rails applications"

@@ -2,6 +2,8 @@
 homepage: true
 image: "/images/mask.webp"
 min_image: "/images/mask_min.webp"
+min_image_width: 640
+image_width: 1280
 layout: blogpost
 title:  "Tradeoffs of Anonymising Production Data"
 description: "Discussing basics of database anonymisation in production Ruby on Rails systems. Presenting hidden costs and AI integrations."

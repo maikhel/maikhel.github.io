@@ -1,5 +1,6 @@
 ---
 image: "/images/green.webp"
+image_width: 640
 layout: blogpost
 title:  "Data Quality in Ruby on Rails"
 description: "Rails data quality strategies - learn how to maintain data integrity across startup, engineering, and mature application phases with best practices"

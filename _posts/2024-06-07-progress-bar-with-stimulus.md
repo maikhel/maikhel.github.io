@@ -1,6 +1,8 @@
 ---
 image: "/images/construction.webp"
 min_image: "/images/construction_min.webp"
+min_image_width: 640
+image_width: 1280
 layout: blogpost
 title:  "Smooth concurrent updates with Hotwire Stimulus"
 description: "Hotwire Stimulus advanced progress bars - solve concurrent updates conflicts with Stimulus controllers for smooth background job progress display"

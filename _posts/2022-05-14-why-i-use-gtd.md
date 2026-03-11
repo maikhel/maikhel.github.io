@@ -1,5 +1,6 @@
 ---
 image: "/images/tree.webp"
+image_width: 600
 layout: blogpost
 title:  "Why I use Getting Things Done"
 description: "Getting Things Done productivity framework benefits - learn how GTD frees mental space, provides flexibility, and integrates with other productivity methods"

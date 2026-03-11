@@ -19,7 +19,24 @@ layout: default
   </header>
 
   {% if page.image %}
-    <img src="{{ page.image }}" alt="" style="max-width:100%; view-transition-name: post-image">
+    {% if page.min_image %}
+      <img
+        src="{{ page.min_image }}"
+        srcset="{{ page.min_image }} {{ page.min_image_width | default: '600' }}w,
+                {{ page.image }} {{ page.image_width | default: '1280' }}w"
+        sizes="100vw"
+        alt=""
+        style="max-width:100%; view-transition-name: post-image"
+      >
+    {% else %}
+      <img
+        src="{{ page.image }}"
+        srcset="{{ page.image }} {{ page.image_width | default: '1280' }}w"
+        sizes="100vw"
+        alt=""
+        style="max-width:100%; view-transition-name: post-image"
+      >
+    {% endif %}
   {% endif %}
 
   {% if page.tags %}

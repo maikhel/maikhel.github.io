@@ -1,6 +1,8 @@
 ---
 image: "/images/lodka.webp"
 min_image: "/images/lodka_min.webp"
+min_image_width: 600
+image_width: 1280
 layout: blogpost
 title:  "5 steps to start using Getting Things Done"
 description: "Getting Things Done beginner's guide - learn 5 practical steps to start implementing GTD productivity system from reading the book to building consistent habits"

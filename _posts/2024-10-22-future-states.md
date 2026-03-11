@@ -1,6 +1,8 @@
 ---
 image: "/images/grain_field.webp"
 min_image: "/images/grain_field_min.webp"
+min_image_width: 640
+image_width: 1280
 layout: blogpost
 title:  "Handling Errors in Concurrent Ruby"
 description: "Concurrent Ruby error handling guide - learn Future lifecycle states, error strategies, and practical implementation for robust async Ruby applications"
