@@ -1,5 +1,4 @@
 ---
-homepage: true
 image: "/images/wheel.webp"
 min_image: "/images/wheel_min.webp"
 min_image_width: 640
