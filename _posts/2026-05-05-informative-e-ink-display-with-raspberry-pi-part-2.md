@@ -10,9 +10,9 @@ excerpt_separator: <!--more-->
 tags: [engineering, productivity, raspberry-pi]
 ---
 
-This is the second part of the tutorial on creating a dashboard with a Waveshare e-ink display connected to a Raspberry Pi. In the first part, we set up the hardware, installed drivers, and built a simple digital clock by running a background service. If you've run the clock, you've probably noticed the screen flashing every minute. In this part, we'll reduce the flashing by switching to partial refresh. We'll also improve our development workflow with local testing and proper logging.
-
+This is Part 2 of the e-ink dashboard tutorial. We'll switch the clock to partial refresh to stop the screen flashing, and improve the development workflow with local testing and logging.
 <!--more-->
+In [Part 1](/blog/informative-e-ink-display-with-raspberry-pi-part-1/), we set up the hardware, installed drivers, and built a simple digital clock running as a background service. If you've run it, you've probably noticed the screen flashing every minute - that's what we'll address first.
 
 [Part 1:](/blog/informative-e-ink-display-with-raspberry-pi-part-1/) Hardware setup and first clock \
 [Part 2:](/blog/informative-e-ink-display-with-raspberry-pi-part-2/) Refresh strategy, testing, and logging \
