@@ -1,5 +1,4 @@
 ---
-homepage: true
 image: "/images/mask.webp"
 min_image: "/images/mask_min.webp"
 min_image_width: 640
