@@ -14,8 +14,8 @@ This is the second part of the tutorial on creating a dashboard with a Waveshare
 
 <!--more-->
 
-Part 1: Hardware setup and first clock \
-Part 2: Refresh strategy, testing, and logging \
+[Part 1:](/blog/informative-e-ink-display-with-raspberry-pi-part-1/) Hardware setup and first clock \
+[Part 2:](/blog/informative-e-ink-display-with-raspberry-pi-part-2/) Refresh strategy, testing, and logging \
 Part 3: External API integration
 
 ## Full refresh vs partial refresh

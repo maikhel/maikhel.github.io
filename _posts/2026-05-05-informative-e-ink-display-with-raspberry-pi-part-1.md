@@ -18,8 +18,8 @@ Easy access to essential information boosts my productivity, so I decided to cre
 If you are a programmer with even basic knowledge of Unix and Python scripts (no hardware knowledge required), this blog post series is for you. I will present my journey, from setting up the hardware and configuring the environment to writing the script that displays the data on the e-ink screen.
 This blog post is not going to replace official documentation or guides - rather, extend it with a practical example. We will connect an e-ink display to a Raspberry Pi and display a clock running as a system service. In the next posts, we will tackle more advanced topics: testing, partial refreshing, and displaying data from external APIs.
 
-Part 1: Hardware setup and first clock \
-Part 2: Refresh strategy, testing, and logging \
+[Part 1:](/blog/informative-e-ink-display-with-raspberry-pi-part-1/) Hardware setup and first clock \
+[Part 2:](/blog/informative-e-ink-display-with-raspberry-pi-part-2/) Refresh strategy, testing, and logging \
 Part 3: External API integration
 
 ## E-ink displays are fun
