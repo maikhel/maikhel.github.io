@@ -19,7 +19,7 @@ If you are a programmer with even basic knowledge of Unix and Python scripts (no
 This blog post is not going to replace official documentation or guides - rather, extend it with a practical example. We will connect an e-ink display to a Raspberry Pi and display a clock running as a system service. In the next posts, we will tackle more advanced topics: testing, partial refreshing, and displaying data from external APIs.
 
 [Part 1:](/blog/informative-e-ink-display-with-raspberry-pi-part-1/) Hardware setup and first clock \
-[Part 2:](/blog/informative-e-ink-display-with-raspberry-pi-part-2/) Refresh strategy, testing, and logging \
+[Part 2:](/blog/informative-e-ink-display-with-raspberry-pi-part-2/) Refresh strategy, testing and logging \
 Part 3: External API integration
 
 ## E-ink displays are fun
@@ -169,8 +169,9 @@ if __name__ == "__main__":
 
 ⚠️ **Panel safety**: notice the `epd.sleep()` calls around every refresh. [Waveshare warns](https://www.waveshare.com/wiki/7.5inch_e-Paper_HAT_Manual#Working_With_Raspberry_Pi) that keeping the panel powered continuously can damage it permanently, so we put it to sleep between updates. This is already the bare minimum; in Part 2, we'll go further with partial refreshes and nightly blanking.
 
-And we can test the script with: `python3 clock.py`. It should display the clock.
-Great! We just learned how to draw on the e-ink display!
+And we can test the script with: `python3 clock.py`. It should display the clock. \
+We just learned how to draw on the e-ink display!
+![E-ink dashboard preview](/images/clock.webp)
 
 You can check out the full script in this [GitHub Gist](https://gist.github.com/maikhel/aec1787eecf0abeedb29caa904c5b2d9).
 
@@ -214,4 +215,4 @@ Running the service should display the clock and update it every minute.
 
 ### Congratulations! 🎉
 We've successfully connected the display, we control the content of it, and update it periodically! For now we display a simple clock, but the possibilities are endless!
-In Part 2, we'll improve refresh behavior so updating the clock doesn't flash the entire screen. Also, we will figure out how to test the script to make it more reliable.
+In [Part 2](/blog/informative-e-ink-display-with-raspberry-pi-part-2/), we'll improve refresh behavior so updating the clock doesn't flash the entire screen. Also, we will figure out how to test the script to make it more reliable.

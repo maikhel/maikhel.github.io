@@ -15,7 +15,7 @@ This is Part 2 of the e-ink dashboard tutorial. We'll switch the clock to partia
 In [Part 1](/blog/informative-e-ink-display-with-raspberry-pi-part-1/), we set up the hardware, installed drivers, and built a simple digital clock running as a background service. If you've run it, you've probably noticed the screen flashing every minute - that's what we'll address first.
 
 [Part 1:](/blog/informative-e-ink-display-with-raspberry-pi-part-1/) Hardware setup and first clock \
-[Part 2:](/blog/informative-e-ink-display-with-raspberry-pi-part-2/) Refresh strategy, testing, and logging \
+[Part 2:](/blog/informative-e-ink-display-with-raspberry-pi-part-2/) Refresh strategy, testing and logging \
 Part 3: External API integration
 
 ## Full refresh vs partial refresh
@@ -166,7 +166,8 @@ def draw_demo():
 draw_demo()
 ```
 
-Run it with `python demo.py` and you will see the image.
+Run it with `python demo.py` and you will see the image:
+![E-ink dashboard preview](/images/clock_preview.png)
 This makes iteration much faster: you can adjust results locally and deploy to Raspberry Pi once you're happy. It will be very handy when we add more features to our dashboard later on.
 
 ## Logs
