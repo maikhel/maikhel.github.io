@@ -94,15 +94,15 @@ So no, AI probably won't take your job. But the version of your job that survive
 
 ## References
 
-- Becker, J., Rush, N., Barnes, B. & Rein, D. (2025). *Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity*. METR. https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/
-- Becker, J., Rush, N., Cunningham, T., Rein, D. & Mahamud, K. (2026). *We are Changing our Developer Productivity Experiment Design*. METR. https://metr.org/blog/2026-02-24-uplift-update/
-- Cox, W. M. & Alm, R. (2008). *Creative Destruction*. In *The Concise Encyclopedia of Economics*. Library of Economics and Liberty. https://www.econlib.org/library/Enc/CreativeDestruction.html
+- Becker, J., Rush, N., Barnes, B. & Rein, D. (2025). *Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity*. METR. <https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/>
+- Becker, J., Rush, N., Cunningham, T., Rein, D. & Mahamud, K. (2026). *We are Changing our Developer Productivity Experiment Design*. METR. <https://metr.org/blog/2026-02-24-uplift-update/>
+- Cox, W. M. & Alm, R. (2008). *Creative Destruction*. In *The Concise Encyclopedia of Economics*. Library of Economics and Liberty. <https://www.econlib.org/library/Enc/CreativeDestruction.html>
 - David, P. A. (1990). *The Dynamo and the Computer: An Historical Perspective on the Modern Productivity Paradox*. American Economic Review, 80(2), 355–361.
 - Freeman, C. & Perez, C. (1988). *Structural Crises of Adjustment, Business Cycles and Investment Behaviour*. In Dosi et al. (Eds.), *Technical Change and Economic Theory*. London: Pinter.
 - Kurz, H. D., Strohmaier, R. & Knell, M. (2025). *Technological Change: History, Theory and Measurement. A Brief Account*. European Commission, JRC141612.
-- Li, Y. et al. (2022). *Competition-Level Code Generation with AlphaCode*. arXiv:2203.07814. https://arxiv.org/abs/2203.07814
-- Peng, S., Kalliamvakou, E., Cihon, P. & Demirer, M. (2023). *The Impact of AI on Developer Productivity: Evidence from GitHub Copilot*. arXiv:2302.06590. https://arxiv.org/abs/2302.06590
+- Li, Y. et al. (2022). *Competition-Level Code Generation with AlphaCode*. arXiv:2203.07814. <https://arxiv.org/abs/2203.07814>
+- Peng, S., Kalliamvakou, E., Cihon, P. & Demirer, M. (2023). *The Impact of AI on Developer Productivity: Evidence from GitHub Copilot*. arXiv:2302.06590. <https://arxiv.org/abs/2302.06590>
 - Perez, C. (2002). *Technological Revolutions and Financial Capital: The Dynamics of Bubbles and Golden Ages*. Cheltenham: Edward Elgar.
-- Perez, C. *Research project: The Social Shaping of Technological Revolutions*. https://www.carlotaperez.org/research-project/
+- Perez, C. *Research project: The Social Shaping of Technological Revolutions*. <https://www.carlotaperez.org/research-project/>
 - Schumpeter, J. A. (1942). *Capitalism, Socialism and Democracy*. New York:  Harper & Brothers. 
 - Solow, R. M. (1987). *We'd Better Watch Out*. New York Times Book Review, July 12, p. 36.

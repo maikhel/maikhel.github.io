@@ -90,6 +90,38 @@ img {
   color: var(--text-muted);
 }
 
+blockquote {
+  margin: var(--space-4) 0;
+  padding: var(--space-2) var(--space-4);
+  border-left: 3px solid var(--accent);
+  background: var(--bg-soft);
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+blockquote p { margin: var(--space-2) 0; }
+
+table {
+  width: 100%;
+  margin: var(--space-4) 0;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+th, td {
+  padding: var(--space-2) var(--space-3);
+  text-align: left;
+  border-bottom: 1px solid var(--bg-soft);
+}
+
+th {
+  font-family: var(--font-sans);
+  font-weight: 500;
+  border-bottom: 2px solid var(--accent);
+}
+
+tbody tr:last-child td { border-bottom: none; }
+
 a {
   color: var(--accent);
   text-decoration: none;
