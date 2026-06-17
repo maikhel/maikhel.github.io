@@ -7,7 +7,6 @@ min_image: "/images/construction_min.webp"
 min_image_width: 640
 image_width: 1280
 excerpt_separator: <!--more-->
-homepage: true
 tags: [engineering, productivity, ai]
 ---
 
