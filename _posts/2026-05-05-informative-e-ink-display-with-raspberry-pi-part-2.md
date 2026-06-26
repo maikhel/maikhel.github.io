@@ -16,7 +16,7 @@ In [Part 1](/blog/informative-e-ink-display-with-raspberry-pi-part-1/), we set u
 
 [Part 1:](/blog/informative-e-ink-display-with-raspberry-pi-part-1/) Hardware setup and first clock \
 [Part 2:](/blog/informative-e-ink-display-with-raspberry-pi-part-2/) Refresh strategy, testing and logging \
-Part 3: External API integration
+[Part 3:](/blog/informative-e-ink-display-with-raspberry-pi-part-3/) External API integration
 
 ## Full refresh vs partial refresh
 
@@ -216,4 +216,4 @@ You can find full code examples in the [GitHub Gist](https://gist.github.com/mai
 
 #### Congratulations! 🎉
 
-Our dashboard is now faster, more stable and easier to debug. We use partial refresh to avoid flashing and we made the development smoother with tests and logs. Now we are ready to turn our screen into a real dashboard: fetching and displaying live data from external APIs, such as the weather forecast. That's exactly what we'll see in Part 3 (coming soon!).
+Our dashboard is now faster, more stable and easier to debug. We use partial refresh to avoid flashing and we made the development smoother with tests and logs. Now we are ready to turn our screen into a real dashboard: fetching and displaying live data from external APIs, such as the weather forecast. That's exactly what we'll see in [Part 3](/blog/informative-e-ink-display-with-raspberry-pi-part-3/).

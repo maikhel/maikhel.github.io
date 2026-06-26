@@ -20,7 +20,7 @@ This blog post is not going to replace official documentation or guides - rather
 
 [Part 1:](/blog/informative-e-ink-display-with-raspberry-pi-part-1/) Hardware setup and first clock \
 [Part 2:](/blog/informative-e-ink-display-with-raspberry-pi-part-2/) Refresh strategy, testing and logging \
-Part 3: External API integration
+[Part 3:](/blog/informative-e-ink-display-with-raspberry-pi-part-3/) External API integration
 
 ## E-ink displays are fun
 
