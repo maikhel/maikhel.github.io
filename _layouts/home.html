@@ -13,17 +13,6 @@ layout: default
     {{ content }}
   </section>
 
-  <section id="talks">
-    <h2>Selected Talks</h2>
-
-    {% assign talks = site.talks | where: "homepage", true | sort: "order" %}
-    {% for talk in talks %}
-      {% include talk_preview.html talk=talk %}
-    {% endfor %}
-
-    <p class="meta"><a href="/talks/">All talks</a></p>
-  </section>
-
   <section id="writing">
     <h2>Selected Writing</h2>
 
@@ -33,6 +22,17 @@ layout: default
     {% endfor %}
 
     <p class="meta"><a href="/blog/">Browse all posts</a></p>
+  </section>
+
+  <section id="talks">
+    <h2>Selected Talks</h2>
+
+    {% assign talks = site.talks | where: "homepage", true | sort: "order" %}
+    {% for talk in talks %}
+      {% include talk_preview.html talk=talk %}
+    {% endfor %}
+
+    <p class="meta"><a href="/talks/">All talks</a></p>
   </section>
 
   <section id="books">

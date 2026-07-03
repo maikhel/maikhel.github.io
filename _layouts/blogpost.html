@@ -56,4 +56,45 @@ layout: default
     {{ content }}
   </article>
 
+  <hr class="hr">
+
+  <nav class="post-nav meta">
+    {% if page.previous %}
+      <div class="post-nav-prev">
+        ← Older<br>
+        <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+      </div>
+    {% endif %}
+    {% if page.next %}
+      <div class="post-nav-next">
+        Newer →<br>
+        <a href="{{ page.next.url }}">{{ page.next.title }}</a>
+      </div>
+    {% endif %}
+  </nav>
+
+  {% assign related = "" | split: "" %}
+  {% for post in site.posts %}
+    {% if post.url == page.url %}{% continue %}{% endif %}
+    {% for tag in page.tags %}
+      {% if post.tags contains tag %}
+        {% assign related = related | push: post %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+  {% assign related = related | slice: 0, 3 %}
+
+  {% if related.size > 0 %}
+    <section class="stack">
+      <h2>Related posts</h2>
+      {% for post in related %}
+        <article>
+          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          <p class="meta">{{ post.date | date: "%B %d, %Y" }}</p>
+        </article>
+      {% endfor %}
+    </section>
+  {% endif %}
+
 </main>

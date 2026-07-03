@@ -27,25 +27,7 @@ title: Blog
   <section class="stack-lg">
 
     {% for post in site.posts %}
-
-      <article class="stack">
-
-        <h3>
-          <a href="{{ post.url }}" data-vt-title>
-            {{ post.title }}
-          </a>
-        </h3>
-
-        <p class="meta">
-          {{ post.date | date: "%B %d, %Y" }}
-        </p>
-
-        <p>
-          {{ post.excerpt | strip_html }}
-        </p>
-
-      </article>
-
+      {% include post_preview.html post=post %}
     {% endfor %}
 
   </section>

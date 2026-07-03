@@ -165,6 +165,17 @@ a:hover { text-decoration: underline; }
 
 section { margin-top: var(--space-6); }
 
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-4);
+}
+
+.post-nav-next {
+  margin-left: auto;
+  text-align: right;
+}
+
 footer {
   max-width: var(--content-width);
   margin: 0 auto;

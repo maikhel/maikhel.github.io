@@ -27,6 +27,8 @@ layout: default
         <p class="meta">
           {{ post.date | date: "%B %d, %Y" }}
         </p>
+
+        <p>{{ post.description | strip_html }}</p>
       </article>
     {% endfor %}
   </section>
