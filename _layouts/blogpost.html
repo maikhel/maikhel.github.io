@@ -24,16 +24,20 @@ layout: default
         src="{{ page.min_image }}"
         srcset="{{ page.min_image }} {{ page.min_image_width | default: '600' }}w,
                 {{ page.image }} {{ page.image_width | default: '1280' }}w"
-        sizes="100vw"
+        sizes="(max-width: 46rem) 100vw, 44rem"
         alt=""
+        fetchpriority="high"
+        decoding="async"
         style="max-width:100%; view-transition-name: post-image"
       >
     {% else %}
       <img
         src="{{ page.image }}"
         srcset="{{ page.image }} {{ page.image_width | default: '1280' }}w"
-        sizes="100vw"
+        sizes="(max-width: 46rem) 100vw, 44rem"
         alt=""
+        fetchpriority="high"
+        decoding="async"
         style="max-width:100%; view-transition-name: post-image"
       >
     {% endif %}

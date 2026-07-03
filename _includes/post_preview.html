@@ -1,6 +1,6 @@
 <article class="preview">
   <div class="preview-content">
-    <img src="{{ post.min_image | relative_url }}" alt="{{ post.title }}" data-vt-image>
+    <img src="{{ post.min_image | relative_url }}" alt="{{ post.title }}" loading="lazy" decoding="async" data-vt-image>
 
     <div class="preview-text">
       <h3><a href="{{ post.url | relative_url }}" data-vt-title>{{ post.title }}</a></h3>
