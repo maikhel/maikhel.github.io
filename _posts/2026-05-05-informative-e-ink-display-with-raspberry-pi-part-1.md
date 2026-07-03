@@ -173,7 +173,7 @@ And we can test the script with: `python3 clock.py`. It should display the clock
 We just learned how to draw on the e-ink display!
 ![E-ink dashboard preview](/images/clock.webp)
 
-You can check out the full script in this [GitHub Gist](https://gist.github.com/maikhel/aec1787eecf0abeedb29caa904c5b2d9).
+You can check out the full script in this [GitHub Gist](https://gist.github.com/maikhel/aec1787eecf0abeedb29caa904c5b2d9). The complete project is also available in the [waveshare-eink repo](https://github.com/maikhel/waveshare-eink) - the [`1.0` tag](https://github.com/maikhel/waveshare-eink/tree/1.0) matches the state described in this series.
 
 ### Runner service
 

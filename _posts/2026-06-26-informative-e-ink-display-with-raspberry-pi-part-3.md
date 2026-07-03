@@ -391,7 +391,7 @@ def draw_steam_or_github(image, font):
         draw_steam_friends(image, font)
 ```
 
-You can find full code examples in the [GitHub Gist](https://gist.github.com/maikhel/35dd34c867934d81d67c53dfd8c1d1d3).
+You can find full code examples in the [GitHub Gist](https://gist.github.com/maikhel/35dd34c867934d81d67c53dfd8c1d1d3) or in the complete [waveshare-eink repo](https://github.com/maikhel/waveshare-eink).
 
 ## Wrapping up the series
 
@@ -402,5 +402,7 @@ This was the final part of the e-ink dashboard series. Looking back at the whole
 - **Part 3** - we turned the clock into a real dashboard by integrating external APIs.
 
 The result is a low-power, always-on display on my desk that shows exactly the information I care about. More importantly, the fetch → display pattern allows adding new integrations very easily. Calendar events, to-do lists, home automation status - whatever is useful - requires just a small service writing a file and a function to draw it.
+
+The full source code of the project is available in the [waveshare-eink repo](https://github.com/maikhel/waveshare-eink).
 </content>
 </invoke>

@@ -212,7 +212,7 @@ except Exception as e:
 
 When something breaks, you can inspect logs with `systemctl status` or check the logs file for more information.
 
-You can find full code examples in the [GitHub Gist](https://gist.github.com/maikhel/58453c3ea03033d36ea5b6427093873c).
+You can find full code examples in the [GitHub Gist](https://gist.github.com/maikhel/58453c3ea03033d36ea5b6427093873c) or in the complete [waveshare-eink repo](https://github.com/maikhel/waveshare-eink).
 
 #### Congratulations! 🎉
 
