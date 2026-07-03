@@ -3,7 +3,34 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="view-transition" content="same-origin">
   <title>{{ page.title | default: site.title }}</title>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@hotwired/turbo@8.0.23/dist/turbo.es2017-esm.js"></script>
+  <script>
+    // View transitions require a view-transition-name to be unique on the page,
+    // so list pages can't statically name every preview. Instead, tag the
+    // clicked preview right before navigation so it morphs into the post page.
+    document.addEventListener('click', function (event) {
+      var link = event.target.closest('article a[href]');
+      if (!link) return;
+
+      var article = link.closest('article');
+      var title = article.querySelector('[data-vt-title]');
+      if (title) title.style.viewTransitionName = 'post-title';
+      var image = article.querySelector('[data-vt-image]');
+      if (image) image.style.viewTransitionName = 'post-image';
+    });
+
+    // Clear leftover names when a list page is shown again (Turbo cache
+    // restore or bfcache), otherwise a second click could create duplicates.
+    function clearViewTransitionNames() {
+      document.querySelectorAll('[data-vt-title], [data-vt-image]').forEach(function (el) {
+        el.style.viewTransitionName = '';
+      });
+    }
+    document.addEventListener('turbo:load', clearViewTransitionNames);
+    window.addEventListener('pageshow', clearViewTransitionNames);
+  </script>
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/syntax.css' | relative_url }}">
 

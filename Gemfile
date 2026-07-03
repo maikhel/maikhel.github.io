@@ -8,5 +8,3 @@ gem 'jekyll'
 gem 'jekyll-paginate'
 gem 'jekyll-seo-tag'
 gem 'jekyll-sitemap'
-
-gem 'jekyll-turbo', '~> 0.1.0'
