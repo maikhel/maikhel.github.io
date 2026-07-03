@@ -404,5 +404,3 @@ This was the final part of the e-ink dashboard series. Looking back at the whole
 The result is a low-power, always-on display on my desk that shows exactly the information I care about. More importantly, the fetch → display pattern allows adding new integrations very easily. Calendar events, to-do lists, home automation status - whatever is useful - requires just a small service writing a file and a function to draw it.
 
 The full source code of the project is available in the [waveshare-eink repo](https://github.com/maikhel/waveshare-eink).
-</content>
-</invoke>
