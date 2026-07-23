@@ -37,6 +37,22 @@
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/syntax.css' | relative_url }}">
 
+  <!-- User-generated theme: applied before first paint to avoid a flash of
+       default styles. Placed after the stylesheets so its :root block wins
+       the cascade over both light defaults and the dark-mode media query. -->
+  <style id="ai-theme-style"></style>
+  <script>
+    (function () {
+      try {
+        var raw = localStorage.getItem('ai-theme:v1');
+        if (!raw) return;
+        var theme = JSON.parse(raw);
+        if (theme && theme.css) document.getElementById('ai-theme-style').textContent = theme.css;
+      } catch (e) { /* corrupt storage: fall back to default styles */ }
+    })();
+  </script>
+  <script defer src="{{ '/assets/js/ai-theme.js' | relative_url }}"></script>
+
   <!-- favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="{{ "/images/favicon/apple-touch-icon.png" | prepend: site.baseurl }}">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ "/images/favicon/favicon-32x32.png" | prepend: site.baseurl }}">
@@ -51,5 +67,7 @@
   {{ content }}
 
   {% include footer.html %}
+
+  {% include ai_theme_widget.html %}
 </body>
 </html>

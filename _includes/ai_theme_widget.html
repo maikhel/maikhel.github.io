@@ -1,0 +1,27 @@
+<div id="ai-theme-widget" data-turbo-permanent hidden>
+  <button type="button" class="ai-theme-toggle" aria-expanded="false"
+          aria-controls="ai-theme-panel" title="Customize design with AI">✨</button>
+
+  <div id="ai-theme-panel" class="ai-theme-panel" hidden>
+    <label for="ai-theme-input">Describe how the site should look or feel</label>
+    <textarea id="ai-theme-input" rows="2"
+              placeholder="e.g. high contrast for outdoor reading"></textarea>
+    <div class="ai-theme-examples">
+      <button type="button" data-example>Readable for my grandfather</button>
+      <button type="button" data-example>Dyslexia-friendly</button>
+      <button type="button" data-example>Cozy warm night mode</button>
+    </div>
+    <div class="ai-theme-actions">
+      <button type="button" data-action="apply">Apply</button>
+      <button type="button" data-action="reset">Reset to default</button>
+    </div>
+    <p class="ai-theme-status" role="status" aria-live="polite"></p>
+  </div>
+</div>
+
+<!-- Emergency reset: inline-styled so it stays usable even if a generated
+     theme makes the page unreadable, in any browser. -->
+<button id="ai-theme-reset-chip" type="button" data-turbo-permanent hidden
+  style="position:fixed;bottom:16px;left:16px;z-index:9999;background:#073642;color:#fdf6e3;border:2px solid #fdf6e3;border-radius:20px;padding:6px 14px;font:14px system-ui,sans-serif;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,0.4);">
+  Reset theme
+</button>
