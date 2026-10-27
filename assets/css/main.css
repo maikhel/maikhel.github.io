@@ -159,9 +159,13 @@ a:hover { text-decoration: underline; }
   flex: 1;
 }
 
-.preview-text h3 {
+.preview-text :is(h2, h3) {
   margin-top: 0;
 }
+
+/* List items use h2 for a correct outline but keep the h3 size */
+.preview-text h2,
+section > article > h2 { font-size: 1.2rem; }
 
 section { margin-top: var(--space-6); }
 

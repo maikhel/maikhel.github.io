@@ -1,6 +1,7 @@
 <article class="stack">
 
-  <h3>{{ include.talk.title }}</h3>
+  {% assign level = include.level | default: 3 %}
+  <h{{ level }}>{{ include.talk.title }}</h{{ level }}>
 
   <p>
     {{ include.talk.content | markdownify | strip_html }}
@@ -17,7 +18,7 @@
     {% endif %}
 
     {% if include.talk.materials_url %}
-      {% if include.talk.slides_url %} · {% endif %}
+      {% if include.talk.slides_url or include.talk.video_url %} · {% endif %}
       <a href="{{ include.talk.materials_url }}">Materials</a>
     {% endif %}
   </p>

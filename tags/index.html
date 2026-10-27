@@ -7,9 +7,11 @@ permalink: /tags/
 <main class="stack-lg">
 
   <header class="stack">
-    <p class="meta">
-      <a href="/">Maikhel</a> · Topics
-    </p>
+    <nav aria-label="Breadcrumb">
+      <p class="meta">
+        <a href="/">Maikhel</a> · Topics
+      </p>
+    </nav>
 
     <h1>Topics</h1>
 
@@ -24,11 +26,11 @@ permalink: /tags/
 
     {% for tag in tags %}
       <article>
-        <h3>
+        <h2>
           <a href="/tags/{{ tag[0] | slugify }}/">
             {{ tag[0] }}
           </a>
-        </h3>
+        </h2>
 
         <p class="meta">
           {{ tag[1].size }} post{% if tag[1].size != 1 %}s{% endif %}

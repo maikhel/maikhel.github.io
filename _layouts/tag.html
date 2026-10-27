@@ -5,9 +5,11 @@ layout: default
 <main class="stack-lg">
 
   <header class="stack">
-    <p class="meta">
-      <a href="/">Maikhel</a> · <a href="/tags/">Topics</a>
-    </p>
+    <nav aria-label="Breadcrumb">
+      <p class="meta">
+        <a href="/">Maikhel</a> · <a href="/tags/">Topics</a>
+      </p>
+    </nav>
 
     <h1>#{{ page.tag }}</h1>
 
@@ -20,12 +22,12 @@ layout: default
     {% assign posts = site.tags[page.tag] %}
     {% for post in posts %}
       <article>
-        <h3>
+        <h2>
           <a href="{{ post.url }}">{{ post.title }}</a>
-        </h3>
+        </h2>
 
         <p class="meta">
-          {{ post.date | date: "%B %d, %Y" }}
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
         </p>
 
         <p>{{ post.description | strip_html }}</p>

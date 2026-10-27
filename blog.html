@@ -6,9 +6,11 @@ title: Blog
 <main class="stack-lg">
 
   <header class="stack">
-    <p class="meta">
-      <a href="/">Maikhel</a> · <a href="/blog/">Blog</a>
-    </p>
+    <nav aria-label="Breadcrumb">
+      <p class="meta">
+        <a href="/">Maikhel</a> · <a href="/blog/">Blog</a>
+      </p>
+    </nav>
     <h1>Blog</h1>
 
     <p>
@@ -27,7 +29,7 @@ title: Blog
   <section class="stack-lg">
 
     {% for post in site.posts %}
-      {% include post_preview.html post=post %}
+      {% include post_preview.html post=post level=2 %}
     {% endfor %}
 
   </section>

@@ -6,9 +6,11 @@ title: Talks
 <main class="stack-lg">
 
   <header class="stack">
-    <p class="meta">
-      <a href="/">Maikhel</a> · <a href="/talks/">Talks</a>
-    </p>
+    <nav aria-label="Breadcrumb">
+      <p class="meta">
+        <a href="/">Maikhel</a> · <a href="/talks/">Talks</a>
+      </p>
+    </nav>
 
     <h1>Talks</h1>
 
@@ -25,7 +27,7 @@ title: Talks
 
     {% assign talks = site.talks | sort: "order" %}
     {% for talk in talks %}
-      {% include talk_preview.html talk=talk %}
+      {% include talk_preview.html talk=talk level=2 %}
     {% endfor %}
 
 

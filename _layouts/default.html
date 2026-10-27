@@ -3,9 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="view-transition" content="same-origin">
   <title>{{ page.title | default: site.title }}</title>
-  <script type="module" src="https://cdn.jsdelivr.net/npm/@hotwired/turbo@8.0.23/dist/turbo.es2017-esm.js"></script>
   <script>
     // View transitions require a view-transition-name to be unique on the page,
     // so list pages can't statically name every preview. Instead, tag the
@@ -21,15 +19,26 @@
       if (image) image.style.viewTransitionName = 'post-image';
     });
 
-    // Clear leftover names when a list page is shown again (Turbo cache
-    // restore or bfcache), otherwise a second click could create duplicates.
+    // Clear leftover names when a list page is restored from bfcache,
+    // otherwise a second click could create duplicates.
     function clearViewTransitionNames() {
       document.querySelectorAll('[data-vt-title], [data-vt-image]').forEach(function (el) {
         el.style.viewTransitionName = '';
       });
     }
-    document.addEventListener('turbo:load', clearViewTransitionNames);
     window.addEventListener('pageshow', clearViewTransitionNames);
+  </script>
+  <script type="speculationrules">
+    {
+      "prerender": [{
+        "source": "document",
+        "where": { "and": [
+          { "href_matches": "/*" },
+          { "not": { "href_matches": "/documents/*" } }
+        ] },
+        "eagerness": "moderate"
+      }]
+    }
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
